@@ -93,9 +93,15 @@ def rename(s):
     return s
 
 
+# Names that are also everyday words ("Will") are only renamed in these exact spots.
+EXACT_TEXT = [("I am Will.", "I am Coral.")]
+EXACT_C_LITERALS = {'"Will"': '"Coral"'}
+
+
 def rename_c_strings(src):
     # only touch "..." literals so constants like TRAINERCLASS_LEADER_FALKNER stay intact
-    return re.sub(r'"(?:[^"\\]|\\.)*"', lambda m: rename(m.group(0)), src)
+    return re.sub(r'"(?:[^"\\]|\\.)*"',
+                  lambda m: EXACT_C_LITERALS.get(m.group(0)) or rename(m.group(0)), src)
 
 
 def load_widths():
@@ -169,6 +175,9 @@ def main():
     for f in files + [ROOT / "data/Trainers.c"]:
         old = f.read_text(encoding="utf-8")
         new = rename_c_strings(old) if f.suffix == ".c" else rename(old)
+        if f.suffix == ".txt":
+            for a, b in EXACT_TEXT:
+                new = new.replace(a, b)
         if new == old:
             continue
         changed += 1

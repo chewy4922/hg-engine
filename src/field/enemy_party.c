@@ -9,6 +9,7 @@
 #include "constants/item.h"
 #include "constants/moves.h"
 #include "constants/species.h"
+#include "constants/trainerclass.h"
 #include "constants/weather_numbers.h"
 
 #include "bag.h"
@@ -18,6 +19,8 @@
 #include "save.h"
 #include "script.h"
 #include "trainer_data.h"
+
+u16 LONG_CALL Starter_GetRegionalEquivalent(u16 species);
 
 #ifdef DEBUG_BATTLE_SCENARIOS
 #include "test_battle.h"
@@ -149,6 +152,15 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
         offset += 2;
         form_no = (species & 0xF800) >> 11;
         species &= 0x07FF;
+
+        // the rival's starter line follows the region the player picked their starter from;
+        // a swapped mon keeps its own level-up moves instead of the Johto mon's moveset
+        u8 starterSwapped = FALSE;
+        if (bp->trainer_data[num].tr_type == TRAINERCLASS_RIVAL) {
+            u16 regional = Starter_GetRegionalEquivalent(species);
+            starterSwapped = (regional != species);
+            species = regional;
+        }
 
         // item field - conditional
         if (bp->trainer_data[num].data_type & TRAINER_DATA_TYPE_ITEMS) {
@@ -308,7 +320,7 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
         if (bp->trainer_data[num].data_type & TRAINER_DATA_TYPE_ITEMS) {
             SetMonData(mons[i], MON_DATA_HELD_ITEM, &item);
         }
-        if (bp->trainer_data[num].data_type & TRAINER_DATA_TYPE_MOVES) {
+        if ((bp->trainer_data[num].data_type & TRAINER_DATA_TYPE_MOVES) && !starterSwapped) {
             for (j = 0; j < 4; j++) {
 #ifdef BLOCK_LEARNING_UNIMPLEMENTED_MOVES
                 if (IsMoveUnimplemented(moves[j])) {

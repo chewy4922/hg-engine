@@ -230,6 +230,73 @@ _HH_RegionChosen:
 	wait 10, VAR_SPECIAL_RESULT
 	toggle_following_pokemon_movement 1
 	get_partymon_species 0, VAR_TEMP_x4001
+	// story scripts pick the rival team by comparing the starter choice to Chikorita/Cyndaquil,
+	// so store the Johto starter of the same type as the one picked from any region
+	compare VAR_TEMP_x4001, SPECIES_BULBASAUR
+	goto_if_eq _HH_StarterGrass
+	compare VAR_TEMP_x4001, SPECIES_CHARMANDER
+	goto_if_eq _HH_StarterFire
+	compare VAR_TEMP_x4001, SPECIES_SQUIRTLE
+	goto_if_eq _HH_StarterWater
+	compare VAR_TEMP_x4001, SPECIES_CHIKORITA
+	goto_if_eq _HH_StarterGrass
+	compare VAR_TEMP_x4001, SPECIES_CYNDAQUIL
+	goto_if_eq _HH_StarterFire
+	compare VAR_TEMP_x4001, SPECIES_TOTODILE
+	goto_if_eq _HH_StarterWater
+	compare VAR_TEMP_x4001, SPECIES_TREECKO
+	goto_if_eq _HH_StarterGrass
+	compare VAR_TEMP_x4001, SPECIES_TORCHIC
+	goto_if_eq _HH_StarterFire
+	compare VAR_TEMP_x4001, SPECIES_MUDKIP
+	goto_if_eq _HH_StarterWater
+	compare VAR_TEMP_x4001, SPECIES_TURTWIG
+	goto_if_eq _HH_StarterGrass
+	compare VAR_TEMP_x4001, SPECIES_CHIMCHAR
+	goto_if_eq _HH_StarterFire
+	compare VAR_TEMP_x4001, SPECIES_PIPLUP
+	goto_if_eq _HH_StarterWater
+	compare VAR_TEMP_x4001, SPECIES_SNIVY
+	goto_if_eq _HH_StarterGrass
+	compare VAR_TEMP_x4001, SPECIES_TEPIG
+	goto_if_eq _HH_StarterFire
+	compare VAR_TEMP_x4001, SPECIES_OSHAWOTT
+	goto_if_eq _HH_StarterWater
+	compare VAR_TEMP_x4001, SPECIES_CHESPIN
+	goto_if_eq _HH_StarterGrass
+	compare VAR_TEMP_x4001, SPECIES_FENNEKIN
+	goto_if_eq _HH_StarterFire
+	compare VAR_TEMP_x4001, SPECIES_FROAKIE
+	goto_if_eq _HH_StarterWater
+	compare VAR_TEMP_x4001, SPECIES_ROWLET
+	goto_if_eq _HH_StarterGrass
+	compare VAR_TEMP_x4001, SPECIES_LITTEN
+	goto_if_eq _HH_StarterFire
+	compare VAR_TEMP_x4001, SPECIES_POPPLIO
+	goto_if_eq _HH_StarterWater
+	compare VAR_TEMP_x4001, SPECIES_GROOKEY
+	goto_if_eq _HH_StarterGrass
+	compare VAR_TEMP_x4001, SPECIES_SCORBUNNY
+	goto_if_eq _HH_StarterFire
+	compare VAR_TEMP_x4001, SPECIES_SOBBLE
+	goto_if_eq _HH_StarterWater
+	compare VAR_TEMP_x4001, SPECIES_SPRIGATITO
+	goto_if_eq _HH_StarterGrass
+	compare VAR_TEMP_x4001, SPECIES_FUECOCO
+	goto_if_eq _HH_StarterFire
+	compare VAR_TEMP_x4001, SPECIES_QUAXLY
+	goto_if_eq _HH_StarterWater
+	goto _HH_StarterSet
+_HH_StarterGrass:
+	setvar VAR_TEMP_x4001, SPECIES_CHIKORITA
+	goto _HH_StarterSet
+_HH_StarterFire:
+	setvar VAR_TEMP_x4001, SPECIES_CYNDAQUIL
+	goto _HH_StarterSet
+_HH_StarterWater:
+	setvar VAR_TEMP_x4001, SPECIES_TOTODILE
+	goto _HH_StarterSet
+_HH_StarterSet:
 	set_starter_choice VAR_TEMP_x4001
 	buffer_players_name 0
 	buffer_mon_species_name 1, 0
