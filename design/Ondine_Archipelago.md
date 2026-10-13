@@ -115,7 +115,7 @@ In game text the Outer Isles are called the **Ostra** region (Kanto → Ostra), 
 ## Build order
 1. ✅ Engine + starters from every region (tested: More → Alola → Litten)
 2. ✅ Text pass: towns, Prof. Maren, Team Riptide, all 16 leaders + E4 renamed (`scripts/ondine_renames.py`; maps unchanged)
-3. Wild encounters for the Inner Isles (`data/Encounters.c`)
+3. ✅ Wild encounters for the Inner Isles: 62 areas by zone (`scripts/ondine_encounters.py`; Kanto/Outer Isles still vanilla)
 4. Gym leaders + trainers with mixed-gen teams (`data/Trainers.c`); rival matches your starter's region
 5. Sprites: Team Riptide, leaders, Maren (Gen 5–9 trainer art where possible)
 6. Map work in DSPRE: beaches, sea routes, island shapes (the biggest job)
