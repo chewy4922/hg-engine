@@ -7,7 +7,7 @@ It seems that CELEBI has made you\ntravel through time...\fto the past!\r
 {SIZE 200}All by myself!{SIZE 100}\r
 {STRVAR_1 3, 0, 0}: ...What are you\nstaring at?\r
 ..................\rOne must acknowledge one’s defeat\nbefore he can move on...\rI will go solo...for now...\rSo that one day I will form\na stronger organization!\r
-Putting together the potential of many\nis how you produce a huge power...\fThat’s what an organization is...\rThat’s the strength of\nan organization!\rI failed...to make the best use of\nmy subordinates’ potential...!\rBut you shall witness one day\nthe revival of me and my {COLOR 1}Team Rocket{COLOR 0}!\r
+Putting together the potential of many\nis how you produce a huge power...\fThat’s what an organization is...\rThat’s the strength of\nan organization!\rI failed...to make the best use of\nmy subordinates’ potential...!\rBut you shall witness one day\nthe revival of me and my {COLOR 1}Team Riptide{COLOR 0}!\r
 ..................\nOne day, you will understand.\r
 Ethan: Where are we...?\r
 Lyra: Where are we...?\r
@@ -19,7 +19,7 @@ Is that...am I looking at...\nCELEBI?\rThat explains it!\nCELEBI must have cause
 Is that...am I looking at...\nCELEBI?\rThat explains it!\nCELEBI must have caused all this!\rMy grandpa once told me that\nCELEBI can travel through time using\fits mystic power called {COLOR 1}Time Travel{COLOR 0}!\rCELEBI must have taken us back in time!\nLiterally!\r
 {STRVAR_1 3, 0, 0}, there is someone else\nhere besides us! Let’s go find out who!\r
 {STRVAR_1 3, 0, 0}, there is someone else\nhere besides us! Let’s go find out who!\r
-Ethan: Who does he think he is?\nThat was unnecessary!\rBut what were they talking about?\nThe revival of {COLOR 1}Team Rocket{COLOR 0}...?\rThey say that Team Rocket was\nremoved from the Kanto region\fby a child three years ago.\rSo this really is three years ago!\r
-Lyra: Who does he think he is?\nThat was unnecessary!\rBut what were they talking about?\nThe revival of {COLOR 1}Team Rocket{COLOR 0}...?\rThey say that Team Rocket was\nremoved from the Kanto region\fby a child three years ago.\rSo this really is three years ago!\r
+Ethan: Who does he think he is?\nThat was unnecessary!\rBut what were they talking about?\nThe revival of {COLOR 1}Team Riptide{COLOR 0}...?\rThey say that Team Riptide was\nremoved from the Ostra region\fby a child three years ago.\rSo this really is three years ago!\r
+Lyra: Who does he think he is?\nThat was unnecessary!\rBut what were they talking about?\nThe revival of {COLOR 1}Team Riptide{COLOR 0}...?\rThey say that Team Riptide was\nremoved from the Ostra region\fby a child three years ago.\rSo this really is three years ago!\r
 Oh no! It’s happening again...!\rIt’s CELEBI’s {COLOR 1}Time Travel{COLOR 0}!\r
 Oh no! It’s happening again...!\rIt’s CELEBI’s {COLOR 1}Time Travel{COLOR 0}!\r

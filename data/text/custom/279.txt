@@ -124,29 +124,29 @@ T.G. Eterna Bldg
 Iron Ruins
 Iceberg Ruins
 Rock Peak Ruins
-New Bark Town
-Cherrygrove City
-Violet City
-Azalea Town
-Cianwood City
-Goldenrod City
-Olivine City
-Ecruteak City
-Mahogany Town
+Saltbloom Town
+Pebblecove
+Windrift Town
+Bloomreef
+Palemoon Isle
+Coralcross City
+Rivetport
+Lantern Key
+Frostveil
 Lake of Rage
-Blackthorn City
-Mt. Silver
+Drakespire
+Mt. Apex
 Pallet Town
-Viridian City
-Pewter City
-Cerulean City
+Tidecrown
+Basalt Isle
+Coralline
 Lavender Town
-Vermilion City
-Celadon City
-Fuchsia City
-Cinnabar Island
-Indigo Plateau
-Saffron City
+Stormcap
+Bloomhaven
+Mire Isle
+Cinder Isle
+Crown Isle
+Mirage Isle
 Route 1
 Route 2
 Route 3
@@ -197,7 +197,7 @@ Route 47
 Route 48
 DIGLETT’s Cave
 Mt. Moon
-Cerulean Cave
+Coralline Cave
 Rock Tunnel
 Power Plant
 Safari Zone
@@ -211,18 +211,18 @@ Ruins of Alph
 Union Cave
 SLOWPOKE Well
 Lighthouse
-Team Rocket HQ
+Team Riptide HQ
 Ilex Forest
-Goldenrod Tunnel
+Coral Tunnel
 Mt. Mortar
 Ice Path
-Whirl Islands
-Mt. Silver Cave
+Abyssal Isles
+Mt. Apex Cave
 Dark Cave
 Victory Road
 Dragon’s Den
 Tohjo Falls
-Viridian Forest
+Tidecrown Forest
 Pokéathlon Dome
 S.S. Aqua
 Safari Zone Gate

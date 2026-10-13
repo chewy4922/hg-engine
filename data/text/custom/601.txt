@@ -5,12 +5,12 @@ I visit every day to check on other\npeople’s Dress-Up Data.\rFor me, it’s l
 Oh, dear me! Gracious!\nThis is almost scandalous!
 For combinations of Pokémon and\nAccessories, you can get ideas from\fothers by observing what they do.
 The same kind of Accessory can create\nentirely different impressions.\rIt really depends on where and how\nit’s used.
-I won a Backdrop drawing for\nAccessories in the Goldenrod Tunnel.
+I won a Backdrop drawing for\nAccessories in the Coral Tunnel.
 What I like to do...\rI like sneaking glances at the people\nchecking out Dress-Up Data.
 Warps to the GTS and the Trainer\nRankings on 1F.
 Warps to the Battle Video Gallery on 3F.
 Connect to Nintendo Wi-Fi\nConnection for Dress-Up Data? {YESNO 0}
-Here, you may post the Dress-Up Data\nof your Pokémon.\rThe Dress-Up Data can be set up and\nsaved in the Goldenrod Tunnel.\rThe Dress-Up Data posted by other\nTrainers may also be viewed here.\rThe data may be sorted by Pokémon\nfor convenient viewing.\r
+Here, you may post the Dress-Up Data\nof your Pokémon.\rThe Dress-Up Data can be set up and\nsaved in the Coral Tunnel.\rThe Dress-Up Data posted by other\nTrainers may also be viewed here.\rThe data may be sorted by Pokémon\nfor convenient viewing.\r
 Connect to Nintendo Wi-Fi\nConnection for Box Data? {YESNO 0}
 Here, you may post the Box Data\ncontaining your Pokémon.\rChoose a wallpaper, then place your\nPokémon on it to compose your scene.\rWhen you are done, post it for other\nTrainers to see.\rThe Box Data posted by other Trainers\nmay also be viewed here.\r
 USE

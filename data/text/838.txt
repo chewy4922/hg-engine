@@ -11,10 +11,10 @@ An item to be held by a Pokémon.\nBoosts Sp. Def if the holder is hit by\na Wat
 An item to be held by a Pokémon.\nBoosts Attack if the holder is hit by\na Ice-type attack--but only once.
 An item to be held by a Pokémon.\nThese goggles protect the holder from\nboth weather-related damage and powder.
 A flute that can play with such a\nbeautiful tone that even sleeping\nPokémon find themselves woken up.
-A fertilizer for growing Berries. However,\nit appears to be unsuitable for the soil\nin the Johto region and has no effect.
-A fertilizer for growing Berries. However,\nit appears to be unsuitable for the soil\nin the Johto region and has no effect.
-A fertilizer for growing Berries. However,\nit appears to be unsuitable for the soil\nin the Johto region and has no effect.
-A fertilizer for growing Berries. However,\nit appears to be unsuitable for the soil\nin the Johto region and has no effect.
+A fertilizer for growing Berries. However,\nit appears to be unsuitable for the soil\nin the Ondine region and has no effect.
+A fertilizer for growing Berries. However,\nit appears to be unsuitable for the soil\nin the Ondine region and has no effect.
+A fertilizer for growing Berries. However,\nit appears to be unsuitable for the soil\nin the Ondine region and has no effect.
+A fertilizer for growing Berries. However,\nit appears to be unsuitable for the soil\nin the Ondine region and has no effect.
 A variety of the mysterious Mega Stones.\nA Gengar holding this stone will be\nable to Mega Evolve during battle.
 A variety of the mysterious Mega Stones.\nA Gardevoir holding this stone will be\nable to Mega Evolve during battle.
 A variety of the mysterious Mega Stones.\nAn Ampharos holding this stone will be\nable to Mega Evolve during battle.

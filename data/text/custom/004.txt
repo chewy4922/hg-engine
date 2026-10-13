@@ -1,5 +1,5 @@
 PLAYER: {STRVAR_1 3, 0, 0}
-This document certifies that\nyou have made the great\nachievement of catching all\nthe Pokémon in Johto.
+This document certifies that\nyou have made the great\nachievement of catching all\nthe Pokémon in Ondine.
 This document certifies\nthat you have successfully\ncompleted your\nNational Pokédex.
 GAME FREAK
 {ALN_CENTER}{STRVAR_1 3, 0, 0} and {STRVAR_1 1, 1, 0}

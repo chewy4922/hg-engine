@@ -6,7 +6,7 @@ FARFETCH’D: Kwaa!
 {STRVAR_1 3, 0, 0} caught the FARFETCH’D!\r
 Ah!\nMy Far and Fetch’d!\rYou found them for us, kid?\nWithout them, we wouldn’t be able to\fcut trees for charcoal.\rThanks, kid!\rNow, how can I thank you...?\nI know! Here, take this.\r
                       
-That’s the HM Cut. Teach that to a\nPokémon to clear small trees.\rOf course, you have to have the Gym\nBadge from Azalea to use it.
+That’s the HM Cut. Teach that to a\nPokémon to clear small trees.\rOf course, you have to have the Gym\nBadge from Bloomreef to use it.
                
 Do you want to apprentice as a charcoal\nmaker with me?\rYou’ll be first-rate in ten years!
 What am I doing?\rI’m shaking trees using Headbutt.\rIt’s fun. Here, you try it with your\nPokémon, too! {YESNO 0}
@@ -28,7 +28,7 @@ Your {STRVAR_1 0, 0, 0}\nhas already learned Headbutt.\r
 Trainer Tips!\rIlex Forest is so overgrown with trees\nthat you can’t see the sky.\rPlease watch out for items that may\nhave been dropped.
 Ilex Forest Shrine...\rIt’s a tribute to the forest’s\nprotector...
 Kimono Girl, Kimono Girl, lost and all\nalone. Poor girl lost in the dark\fIlex Forest.\r
-What?\nYou remember me from Violet City?\fYou must be imagining.\rAnyway, will you show me\nhow to get out of this forest? {YESNO 0}
+What?\nYou remember me from Windrift Town?\fYou must be imagining.\rAnyway, will you show me\nhow to get out of this forest? {YESNO 0}
 You will...?\nAren’t you lost in the forest as well?\fHow do you know how to get out of here?\r
 Me oh my...\nYou are lost yourself, aren’t you?\r
 Wow! Are you going to\nshow me how to get out?\fYou are such a smart Pokémon!\r
@@ -64,5 +64,5 @@ Hey, my MARILL!\r
 Hey, my MARILL!\r
 I thought I would never see you again!\rWait a sec...\nSo we must be back to our time!\r
 I missed you so much!\rWait a sec...\nSo we must be back to our time!\r
-It was all so bizarre.\nBut now that we are safely back to our\ftime and Team Rocket’s terrible design\ffell through, we can say...\fall’s well that ends well, right?\r{STRVAR_1 3, 0, 0}, you never cease to\ninspire great adventures!\rIt sure was an exhausting day, though.\nI better get going.\rSee you!\r
-It was all so bizarre.\nBut now that we are safely back to our\ftime and Team Rocket’s terrible design\ffell through, we can say...\fall’s well that ends well, right?\r{STRVAR_1 3, 0, 0}, you never cease to\ninspire great adventures!\rIt sure was an exhausting day, though.\nI better get going.\rSee you!\r
+It was all so bizarre.\nBut now that we are safely back to our\ftime and Team Riptide’s terrible design\ffell through, we can say...\fall’s well that ends well, right?\r{STRVAR_1 3, 0, 0}, you never cease to\ninspire great adventures!\rIt sure was an exhausting day, though.\nI better get going.\rSee you!\r
+It was all so bizarre.\nBut now that we are safely back to our\ftime and Team Riptide’s terrible design\ffell through, we can say...\fall’s well that ends well, right?\r{STRVAR_1 3, 0, 0}, you never cease to\ninspire great adventures!\rIt sure was an exhausting day, though.\nI better get going.\rSee you!\r

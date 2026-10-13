@@ -37,7 +37,7 @@ Congratulations!\rYour points total is now {STRVAR_1 51, 0, 0}. The prize\nis th
 Your Blue Card points have reached\ntheir max.\fI will give you a new card!\r
 You received a new Blue Card!
 Please join the show again!\r
-Somebody needs to put a beating on this\nmean Team Rocket!\fLike three years ago even!
+Somebody needs to put a beating on this\nmean Team Riptide!\fLike three years ago even!
 CYNDAQUIL
 TOTODILE
 CHIKORITA
@@ -53,9 +53,9 @@ GEODUDE
 HOOTHOOT
 SPINARAK
 DROWZEE
-New Bark Town
-Cherrygrove City
-Azalea Town
+Saltbloom Town
+Pebblecove
+Bloomreef
 Bug Pokémon
 Bird Pokémon
 Grass Pokémon

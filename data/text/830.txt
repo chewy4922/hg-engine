@@ -3,7 +3,7 @@ The best Poké Ball with the ultimate\nlevel of performance. With it, you will\n
 An ultra-high-performance Poké Ball\nthat provides a higher success rate\nfor catching Pokémon than a Great Ball.
 A good, high-performance Poké Ball that\nprovides a higher Pokémon catch rate\nthan a standard Poké Ball.
 A device for catching wild Pokémon.\nIt’s thrown like a ball at a Pokémon,\ncomfortably encapsulating its target.
-A special Poké Ball that was used in the\nSafari Zone in the Kanto region and in\nthe Great Marsh in the Sinnoh region.
+A special Poké Ball that was used in the\nSafari Zone in the Ostra region and in\nthe Great Marsh in the Sinnoh region.
 A somewhat different Poké Ball that\nis more effective when catching\nWater- or Bug-type Pokémon.
 A somewhat different Poké Ball that\nis more effective when catching\nPokémon in or on the water.
 A somewhat different Poké Ball that\nbecomes more effective the lower the\nlevel of the wild Pokémon.
@@ -113,7 +113,7 @@ A vital item that is needed to keep a\nstone tower from collapsing.\nVoices can 
 A shining gem to be held by Giratina.\nIt boosts the power of Giratina’s\nDragon- and Ghost-type moves.
 Aromatic tea that has a slightly\nbitter taste.\nIt soothes a dry throat.
 - - -
-The autograph you got from the\nVermilion City Gym Leader, Lt. Surge.\nHe wrote, “Good luck!“
+The autograph you got from the\nVermilion City Gym Leader, Volt.\nHe wrote, “Good luck!“
 A cassette to be held by Genesect.\nIt changes Genesect’s Techno Blast\nmove so it becomes Water type.
 A cassette to be held by Genesect.\nIt changes Genesect’s Techno Blast\nmove so it becomes Electric type.
 A cassette to be held by Genesect.\nIt changes Genesect’s Techno Blast\nmove so it becomes Fire type.
@@ -462,7 +462,7 @@ A coupon to be exchanged for a\nPokémon Watch- Pokétch for short.\nThree coupo
 A coupon to be exchanged for a\nPokémon Watch- Pokétch for short.\nThree coupons are needed.
 A coupon to be exchanged for a\nPokémon Watch- Pokétch for short.\nThree coupons are needed.
 The key to Team Galactic’s sinister\nwarehouse located at the edge of\nVeilstone City.
-A fantastic medicine dispensed by the\npharmacy in Cianwood City.\nIt fully heals a Pokémon of any ailment.
+A fantastic medicine dispensed by the\npharmacy in Palemoon Isle.\nIt fully heals a Pokémon of any ailment.
 An amazing device that can record a\nbattle between friends or the battles\nat certain special battle facilities.
 A flower sometimes bundled in\nbouquets to convey gratitude on\nspecial occasions, such as birthdays.
 A high-tech key that has to be used at\na specific location. It emits a special\nelectronic signal to open a door.
@@ -502,7 +502,7 @@ A special Poké Ball used in the Pal\nPark.
 A nice photo album for storing all\nthe photos taken along your\nadventure.
 A music player that allows you to listen\nto nostalgic songs. It’s operated with\nthe flip of a single switch.
 A very old-fashioned bell that makes\na gentle ringing sound.
-Mahogany Town’s famous candy.\nMany tourists like to buy them\nto take home.
+Frostveil’s famous candy.\nMany tourists like to buy them\nto take home.
 It holds Pokéathlon records. It is a\ncard that shows how many victories\nyou have had in the Pokéathlon.
 It holds Pokéathlon records. It is a\ncard that shows how many losses you\nhave had in the Pokéathlon.
 It holds Pokéathlon records. It is a\ncard that shows how many times your\nPokémon dashed in the Pokéathlon.

@@ -142,10 +142,10 @@ For a Multi Battle, you must have\nat least three Pokémon.
 For a Mix Battle, you must have\nat least three Pokémon.
 You have at least one Pokémon\nthat can’t be taken.
                            
-Pardon us for the inconvenience...\nPlease return once you have stopped\fbeing a member of Team Rocket...
+Pardon us for the inconvenience...\nPlease return once you have stopped\fbeing a member of Team Riptide...
 You cannot have more than two\nlegendary Pokémon in the GS Cup.
-Pardon us for the inconvenience...\nbut people wearing black clothing,\fpeople who engage in unlawful\factivities, and people who are\fmembers of Team Rocket\fare barred from participating.
-Pardon us for the inconvenience.\rWe have received word from Professor\nElm in New Bark Town that a PICHU\rwith spiky ears cannot be allowed\nto enter.\rPlease place it in your PC Box and\nenter again.
+Pardon us for the inconvenience...\nbut people wearing black clothing,\fpeople who engage in unlawful\factivities, and people who are\fmembers of Team Riptide\fare barred from participating.
+Pardon us for the inconvenience.\rWe have received word from Professor\nElm in Saltbloom Town that a PICHU\rwith spiky ears cannot be allowed\nto enter.\rPlease place it in your PC Box and\nenter again.
                                                                      
 Hello! Here I’ll explain to you about\nthe Trainer Card.\rYour Trainer Card, with your Pokémon of\ncourse, is proof of your status as a\fPokémon Trainer while you’re out\fadventuring.\rIt keeps automatic records of all kinds\nof information.\rIf you touch the card, you can view the\nreverse side.\rYou can sign the back of your card.\rYou can show off your signature to\nanyone you meet in the Union Room!\rBut your signature will be erased if you\ndecide to sign your card again, so\fbe careful!
                        

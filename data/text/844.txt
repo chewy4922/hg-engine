@@ -125,7 +125,7 @@
 {COLOR 255}Lures{COLOR 0}
 {COLOR 255}Super Lures{COLOR 0}
 {COLOR 255}Max Lures{COLOR 0}
-{COLOR 255}bags of Pewter Crunchies{COLOR 0}
+{COLOR 255}bags of Basalt Crunchies{COLOR 0}
 {COLOR 255}Fighting Memories{COLOR 0}
 {COLOR 255}Flying Memories{COLOR 0}
 {COLOR 255}Poison Memories{COLOR 0}
@@ -164,7 +164,7 @@
 {COLOR 255}Yellow Petals{COLOR 0}
 {COLOR 255}Purple Petals{COLOR 0}
 {COLOR 255}Rainbow Flowers{COLOR 0}
-{COLOR 255}Surge Badges{COLOR 0}
+{COLOR 255}Volt Badges{COLOR 0}
 {COLOR 255}N-Solarizers{COLOR 0}
 {COLOR 255}N-Lunarizers{COLOR 0}
 {COLOR 255}N-Solarizers{COLOR 0}

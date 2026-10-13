@@ -78,7 +78,7 @@ The score you achieve in the Pokéathlon\nwill become Athlete Points, and you ca
 “Goal Roll”\rPut your heart into hitting the ball!\nAttack! Defend your Goal!\rAim for the other Goals!\nWho gets the victory?
 Work with your Pokémon. Believe in them,\nand help them believe in you! Believe in\ftheir potential. Let the friendship lead\fyour team to victory!\rThe Pokéathlon is always with you!
 Charge your energy with friendship!\nGive Aprijuice to your Pokémon!
-Whitney: Hi, {STRVAR_1 3, 0, 0}! Are you here\nfor the Pokéathlon? Me, too!\rI have been so excited since its\nconstruction. It is close to Goldenrod\fCity, you know?\r
+Sunny: Hi, {STRVAR_1 3, 0, 0}! Are you here\nfor the Pokéathlon? Me, too!\rI have been so excited since its\nconstruction. It is close to Coralcross\fCity, you know?\r
 Huh?\rWere you going to participate in\nthe Pokéathlon looking like that?\rYou’re not prepared at all, are you?\rSo...\nAre you a medium or a small?\fYou look more like a medium...\rOK!\nI’ll get you a jersey that suits you!\rYou want to look your best if you’re\ngoing to participate in the Pokéathlon,\fdon’t you?\rWait right there!\r
 This is just right for you!\r
 {STRVAR_1 3, 0, 0} received a jersey!

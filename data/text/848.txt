@@ -735,8 +735,8 @@
 {COLOR 255}Mysterious Shards S{COLOR 0}
 {COLOR 255}Mysterious Shards L{COLOR 0}
 {COLOR 255}Digger Drills{COLOR 0}
-{COLOR 255}Kanto Slates{COLOR 0}
-{COLOR 255}Johto Slates{COLOR 0}
+{COLOR 255}Ostra Slates{COLOR 0}
+{COLOR 255}Ondine Slates{COLOR 0}
 {COLOR 255}Soul Slates{COLOR 0}
 {COLOR 255}Rainbow Slates{COLOR 0}
 {COLOR 255}Squall Slates{COLOR 0}

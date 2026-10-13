@@ -1,7 +1,7 @@
-Rt. 42 Ecruteak City\nto Mahogany Town
+Rt. 42 Lantern Key\nto Frostveil
 Mt. Mortar\nWaterfall Cave Inside
 Mt. Mortar\nWaterfall Cave Inside
-Rt. 42 Mahogany Town\nto Ecruteak City
+Rt. 42 Frostveil\nto Lantern Key
 {SIZE 200}Thud!{SIZE 100}\r
 Oh, boy!\rSorry that I bumped into you.\rDid I hurt you?\rPlease don’t cry.\nHere, take this.\r
 It’s a move called Strength!\rWhen a Pokémon learns it, it can move\nboulders out of your way.\fEnjoy a happy mountain-climbing life!\r

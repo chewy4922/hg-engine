@@ -901,7 +901,7 @@ Small Bouquet
 Lure
 Super Lure
 Max Lure
-Pewter Crunchies
+Basalt Crunchies
 Fighting Memory
 Flying Memory
 Poison Memory
@@ -940,7 +940,7 @@ Green Petal
 Yellow Petal
 Purple Petal
 Rainbow Flower
-Surge Badge
+Volt Badge
 N-Solarizer
 N-Lunarizer
 N-Solarizer
@@ -1809,8 +1809,8 @@ Old Verse 20
 Mysterious Shard S
 Mysterious Shard L
 Digger Drill
-Kanto Slate
-Johto Slate
+Ostra Slate
+Ondine Slate
 Soul Slate
 Rainbow Slate
 Squall Slate
@@ -1833,7 +1833,7 @@ Koraidon’s Poké Ball
 Miraidon’s Poké Ball
 Tera Orb
 Scarlet Book
-Violet Book
+Windrift Book
 Kofu’s Wallet
 
 
@@ -2554,7 +2554,7 @@ Blueberry Chairs
 Synchro Machine
 Meteorite
 Scarlet Book
-Violet Book
+Windrift Book
 Briar’s Book
 Seed of Mastery
 Clefablite

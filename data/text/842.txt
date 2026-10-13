@@ -94,13 +94,13 @@ A Berry that makes you drastically\nmore likely to get an item when given\nto Po
 - - -
 - - -
 - - -
-The key that unlocks the front door\nof the Pokémon Gym on Cinnabar\nIsland. It has a red decoration.
+The key that unlocks the front door\nof the Pokémon Gym on Cinder\nIsland. It has a red decoration.
 The ticket required to board the\nS.S. Anne. It has a drawing of a\nship on it.
 A scope that lets you see what\ncannot usually be seen. It is made\nby Silph Co.
-A parcel you were asked to deliver\nto Professor Oak from Viridian\nCity’s Poké Mart.
-A card key that unlocks doors in\nSilph Co.’s head office in Saffron\nCity.
+A parcel you were asked to deliver\nto Professor Oak from Tidecrown\nCity’s Poké Mart.
+A card key that unlocks doors in\nSilph Co.’s head office in Mirage\nCity.
 A set of golden false teeth lost by\nthe Safari Zone’s warden. They make\nhis smile sparkle.
-A key that operates the elevator in\nthe Team Rocket Hideout. It bears\nthe Team Rocket logo.
+A key that operates the elevator in\nthe Team Riptide Hideout. It bears\nthe Team Riptide logo.
 An item to be held by a Pokémon.\nIt extends the duration of terrain\ncaused by the holder’s move or Ability.
 An item to be held by a Pokémon.\nThese pads protect from effects caused\nby making direct contact with the target.
 An item to be held by a Pokémon.\nIt boosts Defense on Electric Terrain.\nIt can only be used once.
@@ -125,7 +125,7 @@ A small bouquet that was made with\nheart and soul for a single Trainer.
 A glass bottle of perfume that makes\nrare Pokémon more likely to appear.
 A glass bottle of perfume that makes\nrare Pokémon more likely to appear.\nIt lasts longer than a Lure.
 A glass bottle of perfume that makes\nrare Pokémon more likely to appear.\nIt lasts longer than a Super Lure.
-Pewter City’s famous crunchy snack.\nThey can be used to cure any status\ncondition a Pokémon may have.
+Basalt Isle’s famous crunchy snack.\nThey can be used to cure any status\ncondition a Pokémon may have.
 A memory disc that contains Fighting-type\ndata. It changes the type of the holder\nif held by a certain species of Pokémon.
 A memory disc that contains Flying-type\ndata. It changes the type of the holder\nif held by a certain species of Pokémon.
 A memory disc that contains Poison-type\ndata. It changes the type of the holder\nif held by a certain species of Pokémon.

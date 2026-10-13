@@ -27,12 +27,12 @@ I have a feeling that it won’t go well\nnext time. Let me close for the day!
 {STRVAR_1 0, 0, 0} looks delighted!
 NO ENTRY BEYOND THIS POINT
 {STRVAR_1 3, 0, 0} inserted the\nBasement Key.\r
-Welcome to the Memorial Photo Studio.\nWe are no ordinary studio!\rYou can wear a Team Rocket uniform\nto take a picture!\rWould you like to try it? {YESNO 0}
+Welcome to the Memorial Photo Studio.\nWe are no ordinary studio!\rYou can wear a Team Riptide uniform\nto take a picture!\rWould you like to try it? {YESNO 0}
 Please stand in front of the camera\nonce you have changed.\r
 Are you ready?\rCome on!\nLook cool as if you own the world!\r
 Good job.\rYou can check the picture using the PC.
-You can wear a Team Rocket uniform\nto take a picture!\rWould you like to try it? {YESNO 0}
-...Fair enough.\rNo one should look up to Team Rocket.
+You can wear a Team Riptide uniform\nto take a picture!\rWould you like to try it? {YESNO 0}
+...Fair enough.\rNo one should look up to Team Riptide.
 Hmm. Your Photo Album is full.\rAccess your PC and delete\nsome pictures.
 Huh?\nAre you a newcomer, too?\rWe had to recruit new members for the\nRadio Tower mission.\fThen we ran out of uniforms.\rI heard this studio has some, so I\ndecided to “borrow” one.\rSince you are here, why don’t you\nchange as well?\r
 Look at you! Pretty good!\rOh, but you shouldn’t try to scare\npeople walking around looking\flike that, OK?
@@ -53,7 +53,7 @@ Ooh, non, non, non! That’s an Egg!\nIt’s too young to be dressing up!\r
 I put your photo up right here.\nIt just looks so perfect there!
 It’s a frame for holding a\nportrait photo.
                                                                                              
-Team Rocket members in black suits\nhave been running around...\rI was wondering what was going on.\nSo, you took on Team Rocket?\fYou are impressive!\rYou may be able to face the\nlegendary Poké...\r
+Team Riptide members in black suits\nhave been running around...\rI was wondering what was going on.\nSo, you took on Team Riptide?\fYou are impressive!\rYou may be able to face the\nlegendary Poké...\r
 Hahaha! Never mind.\rI must go now.\r
 Take a look!\rThis is a drawing for Accessories.\nYou never know what you’re gonna get.\rWould you like to try for $100? {YESNO 0}
 Wow, you are great!\nSo many Accessories and wallpapers!\rGo ahead and dress up your Pokémon!

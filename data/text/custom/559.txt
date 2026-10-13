@@ -8,7 +8,7 @@
                               
                               
 A guy named Bill made the Pokémon\nPC storage system.\rYou can access the Pokémon storage\nsystem using the PC at the reception\fthere. Why don’t you try it once?
-It was about three years ago.\nThis group of thugs called Team Rocket\fwas involved in wrongdoing. They were\fabusing Pokémon.\rBut!\nBad things never last!\rA boy did a wonderful job and\nTeam Rocket was disbanded!\n\n
+It was about three years ago.\nThis group of thugs called Team Riptide\fwas involved in wrongdoing. They were\fabusing Pokémon.\rBut!\nBad things never last!\rA boy did a wonderful job and\nTeam Riptide was disbanded!\n\n
 Pokémon are really smart.\nTraded Pokémon might not listen to you\fright away. For example, high-level\fPokémon sometimes refuse to obey\fwhen you don’t have enough Gym Badges.
 Primo: Hello!\nI should be a familiar face to every\fPokémon fan. I’m from the TV show,\f“The Show Me Show!”\rI am Primo, the big brother!\rToday, would you, one of my fans,\ntell me what you think of me? {YESNO 0}
 Primo: Oh my...!\nIs that how you feel about me?!\rI never thought of it that way before.\nBy the way, how do you like the\fway I am so exciting and fun?\r

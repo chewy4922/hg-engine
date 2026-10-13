@@ -1,5 +1,5 @@
-Cynthia: This is the {COLOR 1}Mystri Stage{COLOR 0}. The\nmythical stage built to show respect\ffor ARCEUS.\rIt is said that people used to\ncelebrate its magnificent might with\fmusic and dance.\rSome people in Johto still pass down\nthis tradition.\r
-Cynthia: This is the {COLOR 1}Mystri Stage{COLOR 0}. The\nmythical stage built to show respect\ffor ARCEUS.\rIt is said that people used to\ncelebrate its magnificent might with\fmusic and dance.\rSome people in Johto still pass down\nthis tradition.
+Cynthia: This is the {COLOR 1}Mystri Stage{COLOR 0}. The\nmythical stage built to show respect\ffor ARCEUS.\rIt is said that people used to\ncelebrate its magnificent might with\fmusic and dance.\rSome people in Ondine still pass down\nthis tradition.\r
+Cynthia: This is the {COLOR 1}Mystri Stage{COLOR 0}. The\nmythical stage built to show respect\ffor ARCEUS.\rIt is said that people used to\ncelebrate its magnificent might with\fmusic and dance.\rSome people in Ondine still pass down\nthis tradition.
 Cynthia: The {COLOR 1}Mystri Stage{COLOR 0} allows a\nsingle ARCEUS and nothing else to\fget on the stage...\rIf you wish to go up there, you have\nto deposit your other Pokémon in\fa PC Box at the cabin.
 Cynthia: Bring your ARCEUS instead.\rAny other Pokémon may get blown away\nby the strong power lingering\fat the ruins.\r
 Cynthia: This is where one might say,\n“The lead enters the {COLOR 1}Mystri Stage{COLOR 0}\fat last.”\rAll my study of ruins and Pokémon\nmythology in Sinnoh may have been\fto bring you up on this stage\fhere today...\r

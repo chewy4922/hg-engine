@@ -10,7 +10,7 @@ Save some money
 Don’t save money
 Evaluate Pokédex
 Quit
-Evaluate Johto Pokédex
+Evaluate Ondine Pokédex
 Evaluate National Pokédex
 Quit
 Evaluate National Pokédex

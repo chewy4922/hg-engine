@@ -8,8 +8,8 @@ Hey!\nYou don’t have any Fossils.\rI heard that sometimes you find Fossils\nwh
 Do you want to extract a Pokémon\nfrom the {STRVAR_1 8, 0, 0}? {YESNO 0}
 {STRVAR_1 3, 0, 0} received\nthe {STRVAR_1 0, 1, 0}!
 Would you like to give a nickname\nto the {STRVAR_1 0, 1, 0} you received? {YESNO 0}
-They say that meteorites struck\nsomewhere near Pewter City.\rWe would love to display them here\nin our museum, but...\rThese meteorites are said to\nemit strange energy and cannot\fbe carried away...
-There are two places that I love!\nOne is the Ruins of Alph in Johto...\rThe other is the Pewter Museum!\nIt’s so quiet and makes me feel calm.\rDo you feel its admirable history\nsilently creeping up on you?
+They say that meteorites struck\nsomewhere near Basalt Isle.\rWe would love to display them here\nin our museum, but...\rThese meteorites are said to\nemit strange energy and cannot\fbe carried away...
+There are two places that I love!\nOne is the Ruins of Alph in Ondine...\rThe other is the Basalt Museum!\nIt’s so quiet and makes me feel calm.\rDo you feel its admirable history\nsilently creeping up on you?
 I should be grateful for my long life.\rNever did I think I would get to\nsee the bones of a dragon!
 ..................\rAll those shining stars at night are\nthe stones I’ll never get to know...
 Steven: People who dedicate themselves\nto what they believe stand out in\fa crowd.\rBut, my passion is no less than yours.\r
@@ -19,12 +19,12 @@ This stone is...so mysterious!\rSomething seems to be shining inside...\nThe sto
 I will check it.\nCan you hold on a second?\r
 Thank you for your patience!\nIt took me a little while,\fbut I have confirmed it!\rThis is an Orb that contains\nwhat is called {COLOR 2}Soul Dew{COLOR 0}.\r
 Soul Dew is no ordinary thing\nand is rarely seen.\fI would love to study it closely.
-Steven: Soul Dew is said to be the\nsolidified spirits of LATIAS and LATIOS.\rIt has the power to bring out the\ntrue potential of LATIAS and LATIOS.\rThe spirits of these Pokémon and\nSoul Dew are said to call out to\feach other...\rThe only thing that puzzles me is\nthe place Soul Dew was found.\fWhy Kanto?\r
+Steven: Soul Dew is said to be the\nsolidified spirits of LATIAS and LATIOS.\rIt has the power to bring out the\ntrue potential of LATIAS and LATIOS.\rThe spirits of these Pokémon and\nSoul Dew are said to call out to\feach other...\rThe only thing that puzzles me is\nthe place Soul Dew was found.\fWhy Ostra?\r
 Stringy and winding...\nIs this a plant Fossil?
 It’s a curving, sharp Fossil.\nThis may be...\fthe Fossil of a carnivore?
 It’s flat and looks hard.\nThis may be...\fa part that protected its body?
 Solid amber tree sap has\nsomething inside!\rIf you can take it out, you can\nextract a Pokémon from\fancient times...?
 Small bones are put together to form\nsome kind of a Pokémon!
 The rough stone has words etched\ninto it...\r“This is an unidentified object\nfound at Mt. Moon. It is possibly a\fmoon rock.”
-There are thick and well-read books!\r“The Principles of Fossil Extraction”\f“Archaeology Manual”\f“Lost Pokémon”\f“Pokémon Ancestors”\f“Friendships of Trainers and Pokémon”\f“Caring at the Loamy Layer of Kanto”
-Our museum mainly displays\nFossils and specimens from Kanto.\rPlease enjoy the extinct Pokémon\nthrough their remembrance, and\fstep through time to the ancient world.
+There are thick and well-read books!\r“The Principles of Fossil Extraction”\f“Archaeology Manual”\f“Lost Pokémon”\f“Pokémon Ancestors”\f“Friendships of Trainers and Pokémon”\f“Caring at the Loamy Layer of Ostra”
+Our museum mainly displays\nFossils and specimens from Ostra.\rPlease enjoy the extinct Pokémon\nthrough their remembrance, and\fstep through time to the ancient world.

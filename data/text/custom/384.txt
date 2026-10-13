@@ -31,8 +31,8 @@ Kate: I must pay you back for taking\ncare of my sisters!\r
 Kate: You are so strong.\nWe lost with no excuses...\rHere, take this!\r
                            
 Kate: I’m sorry we jumped you.\rWe never expected anyone to find \nus here.\fYou sure startled us.
-Rt. 34\nSouth to Azalea Town
-Trainer Tips\rNorth to Goldenrod City\nThe Radio Tower at Goldenrod is giving\faway Radio Cards.\rAnswer their questions and receive a\nRadio Card!
+Rt. 34\nSouth to Bloomreef
+Trainer Tips\rNorth to Coralcross City\nThe Radio Tower at Coralcross is giving\faway Radio Cards.\rAnswer their questions and receive a\nRadio Card!
 Pokémon Day Care\nLet us raise your Pokémon for you!
 Lyra: Grandpa!\r
 Lyra: Good work, Grandpa!\nThe Pokémon you raised for me has\fbeen as healthy as can be!\rYou look fit, too!\r

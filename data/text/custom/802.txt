@@ -63,8 +63,8 @@ Fire
 Water
 Bug
 ----
-JOHTO
-KANTO
+ONDINE
+OSTRA
 UNKNOWN
 ----
 A

@@ -5,8 +5,8 @@ This Gym didn’t have a Leader...\rA young man from Pallet Town became the\nLea
 How was it?\nWere you able to battle the Leader?
 Yawn!\nI must have dozed off in the sun.\r...I had this dream about a DROWZEE\neating my dream.\rWeird, huh?\fHuh?\fWhat’s this?\rWhere did this TM come from?\nThis is spooky!\fHere, you can have this TM.\r
 TM85 contains Dream Eater...\n...Zzzzz...
-I heard that there are many items on\nthe ground in Viridian Forest.
-Viridian City\nThe City of Evergreen
-Viridian City Pokémon Gym\nLeader: ...\fThe rest of the text is illegible...
-Welcome to Viridian City,\nthe Gateway to Indigo Plateau!
+I heard that there are many items on\nthe ground in Tidecrown Forest.
+Tidecrown\nThe City of Evergreen
+Tidecrown Pokémon Gym\nLeader: ...\fThe rest of the text is illegible...
+Welcome to Tidecrown,\nthe Gateway to Crown Isle!
 Trainer House\nThe Club for Top Trainer Battles

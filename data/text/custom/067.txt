@@ -1,7 +1,7 @@
 We have recordings of the cries of many\nof the Pokémon that have been found.\rWe must have about 200 kinds.
-To Trainers, Pokémon are their\nbeloved partners.\rIt’s terrible how Team Rocket is trying\nto control Pokémon.
+To Trainers, Pokémon are their\nbeloved partners.\rIt’s terrible how Team Riptide is trying\nto control Pokémon.
 We run 24 hours a day to broadcast\nentertaining programs.\rI’ll do my best to run around the\nclock, too!
-The Team Rocket boss has locked\nhimself in.\rBut the Director can open it.\rHe’s up on the fifth floor.\nPlease save him!
+The Team Riptide boss has locked\nhimself in.\rBut the Director can open it.\rHe’s up on the fifth floor.\nPlease save him!
 Is the Director safe?
 Thank you, kiddo! You’re the best!\nThis is a token of my appreciation.\r
 {STRVAR_1 3, 0, 0} received TM11!

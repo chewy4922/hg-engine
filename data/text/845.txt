@@ -125,7 +125,7 @@ a {COLOR 255}Small Bouquet{COLOR 0}
 a {COLOR 255}Lure{COLOR 0}
 a {COLOR 255}Super Lure{COLOR 0}
 a {COLOR 255}Max Lure{COLOR 0}
-a {COLOR 255}bag of Pewter Crunchies{COLOR 0}
+a {COLOR 255}bag of Basalt Crunchies{COLOR 0}
 a {COLOR 255}Fighting Memory{COLOR 0}
 a {COLOR 255}Flying Memory{COLOR 0}
 a {COLOR 255}Poison Memory{COLOR 0}
@@ -164,7 +164,7 @@ a {COLOR 255}Green Petal{COLOR 0}
 a {COLOR 255}Yellow Petal{COLOR 0}
 a {COLOR 255}Purple Petal{COLOR 0}
 a {COLOR 255}Rainbow Flower{COLOR 0}
-a {COLOR 255}Surge Badge{COLOR 0}
+a {COLOR 255}Volt Badge{COLOR 0}
 an {COLOR 255}N-Solarizer{COLOR 0}
 an {COLOR 255}N-Lunarizer{COLOR 0}
 an {COLOR 255}N-Solarizer{COLOR 0}

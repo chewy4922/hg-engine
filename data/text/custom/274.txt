@@ -125,12 +125,12 @@ A residential area somewhere.\nEven when you take a Stroll\nhere, you can meet P
 A dark cave sometimes used as a\ntest of courage. Look closely,\nand you’ll find many Pokémon.
 A deep, blue lake. It’s said that\nsome rare Pokémon live at the\nbottom of this lake.
 The outskirts of a town. Where\npeople have moved away,\nPokémon have moved in.
-A Route that goes deep into the\nHoenn region. You can meet many\nPokémon not in Johto or Kanto.
-A very warm beach in the Hoenn\nregion. You can meet many\nPokémon not in Johto or Kanto.
+A Route that goes deep into the\nHoenn region. You can meet many\nPokémon not in Ondine or Ostra.
+A very warm beach in the Hoenn\nregion. You can meet many\nPokémon not in Ondine or Ostra.
 A path through a currently\nactive volcano. Very fiery and\nrare Pokémon live here.
 A path that works with the\ntrees of the forest. Pokémon\nhere are always changing.
 A pitch-black cave that seems\nhaunted. It’s said that many\nPokémon live deep inside.
-A Route through the Sinnoh\nregion, far from Johto and\nKanto. Rare Pokémon live here.
+A Route through the Sinnoh\nregion, far from Ondine and\nKanto. Rare Pokémon live here.
 A snow-covered road where a\nmisstep could result in a fall--\nit tests your trust in Pokémon.
 A forest surrounded by many old\ntrees since the olden days.\nMany Pokémon live here.
 A lake concealed in white mist.\nIt lends a very mysterious feel\nto the area.

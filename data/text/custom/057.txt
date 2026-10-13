@@ -5,8 +5,8 @@ You have done it...\nPlease come through.
 That Rainbow Wing will merely permit you\nto go up the tower.\rIf you are not the kind of person who\nwould restore the trust between people\fand Pokémon, HO-OH will never show\fitself to you...
 Hmmm.\rSo it was you and the Bell!
 You are quite a remarkable Trainer\nfor your age...
-Morty: Bell Tower is where\npeople and Pokémon test their trust.\rYou may be born with some talent...\fCan we exchange numbers?\rI would love to examine the trust\nyou have with your Pokémon. {YESNO 0}
-{STRVAR_1 3, 0, 0} registered Morty\nin the Pokégear!
-Morty: Give me a call on Tuesday nights.\nI should be free and ready.
-Morty: I really wanted to see the\ntrust you have with your Pokémon...
-Morty: Do you want to exchange\nnumbers? {YESNO 0}
+Wren: Bell Tower is where\npeople and Pokémon test their trust.\rYou may be born with some talent...\fCan we exchange numbers?\rI would love to examine the trust\nyou have with your Pokémon. {YESNO 0}
+{STRVAR_1 3, 0, 0} registered Wren\nin the Pokégear!
+Wren: Give me a call on Tuesday nights.\nI should be free and ready.
+Wren: I really wanted to see the\ntrust you have with your Pokémon...
+Wren: Do you want to exchange\nnumbers? {YESNO 0}

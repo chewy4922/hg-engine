@@ -1,5 +1,5 @@
-Lyra: {STRVAR_1 3, 0, 0}!\rProfessor Elm was looking for you.\nDid you go to his lab?
-Ethan: {STRVAR_1 3, 0, 0}!\rProfessor Elm was looking for you.\nDid you go to his lab?
+Lyra: {STRVAR_1 3, 0, 0}!\rProfessor Maren was looking for you.\nDid you go to his lab?
+Ethan: {STRVAR_1 3, 0, 0}!\rProfessor Maren was looking for you.\nDid you go to his lab?
 Lyra: My MARILL is super cute...\nBut your {STRVAR_1 0, 1, 0} looks pretty\fgood, too, {STRVAR_1 3, 0, 0}!
 Ethan: My MARILL is super cool...\nBut your {STRVAR_1 0, 1, 0} looks pretty\fgood, too, {STRVAR_1 3, 0, 0}!
 MARILL: Qurururoon.
@@ -15,5 +15,5 @@ Lyra: Cherish your friendship with\nPokémon for years to come!
 Ethan: Cherish your friendship with\nPokémon for years to come!
 Lyra: Hi, {STRVAR_1 3, 0, 0}!\nHow is your Pokémon?\rYou can talk to it as you walk from time\nto time to nurture your friendship!\r...\rOh, I get it.\nAre you here to check on the award\fwith {STRVAR_1 1, 1, 0}?\r
 Ethan: Hi, {STRVAR_1 3, 0, 0}!\nHow is your Pokémon?\rYou can talk to it as you walk from time\nto time to nurture your friendship!\r...\rOh, I get it.\nAre you here to check on the award\fwith {STRVAR_1 1, 1, 0}?\r
-It’s a Wii!\rWii is huge in Johto, too!
+It’s a Wii!\rWii is huge in Ondine, too!
 You shouldn’t mess with someone\nelse’s PC!

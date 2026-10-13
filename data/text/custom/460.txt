@@ -1,6 +1,6 @@
-Have you visited Pewter Gym?\rThe Gym Leader uses\nRock-type Pokémon.
+Have you visited Basalt Gym?\rThe Gym Leader uses\nRock-type Pokémon.
 At night, CLEFAIRY come out to play\nat Mt. Moon.\rBut not every night.
-Ah, you came all the way out here\nfrom Johto?\rThat brings back memories.\rWhen I was young, I went to Johto\nto train.\rYou remind me so much of what I was\nlike as a young man.\rHere. I want you to have this item\nI found in Johto.\r
+Ah, you came all the way out here\nfrom Ondine?\rThat brings back memories.\rWhen I was young, I went to Ondine\nto train.\rYou remind me so much of what I was\nlike as a young man.\rHere. I want you to have this item\nI found in Ondine.\r
                       
                       
 Going to new, unknown places and\nseeing new people...\fThose are the joys of travel.
@@ -18,8 +18,8 @@ Steven: Impressive!\nIt was a great battle!\rLATIOS will be back once it recover
 Steven: Impressive!\nIt was a great battle!\rLATIAS will be back once it recovers\nto make amends for the defeat.\r
 Steven: I see.\nYou’d rather hide your true strength\ffrom me. You have room to breathe,\fand that scares me.\r
 Steven: What? You are not scared,\nare you? Don’t be reserved. Go for it.
-Pewter City\nBetween Rugged Mountains
-Pewter City Pokémon Gym\nLeader: Brock\fThe Rock-Solid Pokémon Trainer
-Pewter Museum of Science
-Welcome to Pewter City!
+Basalt Isle\nBetween Rugged Mountains
+Basalt Isle Pokémon Gym\nLeader: Flint\fThe Rock-Solid Pokémon Trainer
+Basalt Museum of Science
+Welcome to Basalt Isle!
 The door’s locked...

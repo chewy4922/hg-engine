@@ -364,7 +364,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Are you going to Cianwood?\\rHow about a quick battle first?\\r",
+                .text = "Are you going to Palemoon?\\rHow about a quick battle first?\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -507,7 +507,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Quit taking SlowpokeTails?\\rIf we listened to you, Team Rocket’s\\nrep would be ruined!\\r",
+                .text = "Quit taking SlowpokeTails?\\rIf we listened to you, Team Riptide’s\\nrep would be ruined!\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -515,7 +515,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "We need the money, but selling\\nSlowpokeTails?\\rIt’s tough being a Team Rocket Grunt!\\n",
+                .text = "We need the money, but selling\\nSlowpokeTails?\\rIt’s tough being a Team Riptide Grunt!\\n",
             },
         },
     },
@@ -548,7 +548,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Stop taking SlowpokeTails?\\rWhat?! You want us to disobey a direct\\norder from Executive Proton?\\rIf you want to stop us, you’ll have to\\ndefeat us all! Go ahead and try!\\r",
+                .text = "Stop taking SlowpokeTails?\\rWhat?! You want us to disobey a direct\\norder from Executive Brine?\\rIf you want to stop us, you’ll have to\\ndefeat us all! Go ahead and try!\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -556,7 +556,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "SlowpokeTails grow back fast!\\rBesides, it was an order from Proton,\\nso I’m more concerned about that!\\n",
+                .text = "SlowpokeTails grow back fast!\\rBesides, it was an order from Brine,\\nso I’m more concerned about that!\\n",
             },
         },
     },
@@ -693,7 +693,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Cianwood City is a good distance away\\nfrom here.\\n",
+                .text = "Palemoon Isle is a good distance away\\nfrom here.\\n",
             },
         },
     },
@@ -826,7 +826,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [20] = {
-        .name = "Falkner",
+        .name = "Kestrel",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_FALKNER,
@@ -871,7 +871,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [21] = {
-        .name = "Bugsy",
+        .name = "Lumi",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_BUGSY,
@@ -1066,7 +1066,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You’re headed to Azalea, are you?\\nLet my Pokémon see if you are good\\fenough to battle.\\r",
+                .text = "You’re headed to Bloomreef, are you?\\nLet my Pokémon see if you are good\\fenough to battle.\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -1238,13 +1238,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Falkner’s skills are for real!\\rDon’t get cocky!",
+                .text = "Kestrel’s skills are for real!\\rDon’t get cocky!",
             },
         },
     },
 
     [30] = {
-        .name = "Whitney",
+        .name = "Sunny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_WHITNEY,
@@ -1289,7 +1289,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [31] = {
-        .name = "Morty",
+        .name = "Wren",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_MORTY,
@@ -1352,7 +1352,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [32] = {
-        .name = "Pryce",
+        .name = "Yuki",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_PRYCE,
@@ -1406,7 +1406,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [33] = {
-        .name = "Jasmine",
+        .name = "Anvila",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_JASMINE,
@@ -1460,7 +1460,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [34] = {
-        .name = "Chuck",
+        .name = "Tomo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_CHUCK,
@@ -1505,7 +1505,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [35] = {
-        .name = "Clair",
+        .name = "Ryla",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_CLAIR,
@@ -1646,7 +1646,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Jasmine used to use Rock Pokémon\\nlike ONIX.\\n",
+                .text = "Anvila used to use Rock Pokémon\\nlike ONIX.\\n",
             },
         },
     },
@@ -1720,7 +1720,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I just got back to Olivine.\\nSo, how about a Pokémon battle?\\r",
+                .text = "I just got back to Rivetport.\\nSo, how about a Pokémon battle?\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -2139,7 +2139,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I can’t believe how ridiculously high\\nthis is! But from up here, you can tell\\fwhat it feels like to be a bird Pokémon!\\rLet me see if you’re good enough to\\nface Falkner!\\r",
+                .text = "I can’t believe how ridiculously high\\nthis is! But from up here, you can tell\\fwhat it feels like to be a bird Pokémon!\\rLet me see if you’re good enough to\\nface Kestrel!\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -3063,7 +3063,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Some Pokémon flee right away.\\nTry catching them with Kurt’s Fast Ball.\\rWhenever I find a Wht. Apricorn,\\nI take it to Kurt. He turns it into a\\fcustom Ball.\\n",
+                .text = "Some Pokémon flee right away.\\nTry catching them with Nemo’s Fast Ball.\\rWhenever I find a Wht. Apricorn,\\nI take it to Nemo. He turns it into a\\fcustom Ball.\\n",
             },
         },
     },
@@ -3362,7 +3362,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’ll catch all the Pokémon you can find\\nonly in Johto!\\n",
+                .text = "I’ll catch all the Pokémon you can find\\nonly in Ondine!\\n",
             },
         },
     },
@@ -3512,7 +3512,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I plan to train in Cianwood City to teach\\nmy Pokémon how to Fly.\\n",
+                .text = "I plan to train in Palemoon Isle to teach\\nmy Pokémon how to Fly.\\n",
             },
         },
     },
@@ -3810,7 +3810,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m on my way to the Whirl Islands.\\nI’m going exploring with friends.\\r",
+                .text = "I’m on my way to the Abyssal Isles.\\nI’m going exploring with friends.\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -3818,7 +3818,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "There’s supposed to be a big Pokémon\\ndeep beneath the Whirl Islands.\\fI wonder what it could be?\\n",
+                .text = "There’s supposed to be a big Pokémon\\ndeep beneath the Abyssal Isles.\\fI wonder what it could be?\\n",
             },
         },
     },
@@ -4096,7 +4096,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It’s so far to Cianwood. But it’s no\\neasy return trip to Olivine either.\\fWhat should I do?\\n",
+                .text = "It’s so far to Palemoon. But it’s no\\neasy return trip to Rivetport either.\\fWhat should I do?\\n",
             },
         },
     },
@@ -4130,7 +4130,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It was a dark and stormy night...\\rI saw this giant Pokémon flying from\\nthe Whirl Islands.\\rFeathers were scattering from its\\nsilver wings.\\n",
+                .text = "It was a dark and stormy night...\\rI saw this giant Pokémon flying from\\nthe Abyssal Isles.\\rFeathers were scattering from its\\nsilver wings.\\n",
             },
         },
     },
@@ -4205,7 +4205,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "A secret about the Whirl Islands...\\nIt’s pitch black inside!\\n",
+                .text = "A secret about the Abyssal Isles...\\nIt’s pitch black inside!\\n",
             },
         },
     },
@@ -4279,7 +4279,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Sure, we’ve been hacking the tails off\\nSLOWPOKE and selling them.\\rTeam Rocket will do anything for money!\\n",
+                .text = "Sure, we’ve been hacking the tails off\\nSLOWPOKE and selling them.\\rTeam Riptide will do anything for money!\\n",
             },
         },
     },
@@ -4661,7 +4661,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You’ve met the Dragon Tamer Lance?\\nI don’t believe you.\\n",
+                .text = "You’ve met the Dragon Tamer Soren?\\nI don’t believe you.\\n",
             },
         },
     },
@@ -4823,7 +4823,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You came from New Bark Town?\\nYou must be exhausted.\\r",
+                .text = "You came from Saltbloom Town?\\nYou must be exhausted.\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -4835,7 +4835,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "You said you came from New Bark Town,\\nright? I’ll watch and see how far\\fyou’ll go!\\r",
+                .text = "You said you came from Saltbloom Town,\\nright? I’ll watch and see how far\\fyou’ll go!\\r",
             },
         },
     },
@@ -5037,7 +5037,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’ve been training hard with Clair.\\nThere’s no way I can lose!\\r",
+                .text = "I’ve been training hard with Ryla.\\nThere’s no way I can lose!\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -5185,7 +5185,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Kurt’s Lure Ball is the best for\\ncatching hooked Pokémon.\\rIt’s much more effective than an\\nUltra Ball.\\n",
+                .text = "Nemo’s Lure Ball is the best for\\ncatching hooked Pokémon.\\rIt’s much more effective than an\\nUltra Ball.\\n",
             },
         },
     },
@@ -5462,7 +5462,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I plan to fish off Vermilion’s pier.\\n",
+                .text = "I plan to fish off Stormcap’s pier.\\n",
             },
         },
     },
@@ -5649,7 +5649,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Do you know Mary?\\nShe’s a popular DJ in Johto.\\r",
+                .text = "Do you know Mary?\\nShe’s a popular DJ in Ondine.\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -5895,7 +5895,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Saffron, Celadon... I hear there are\\nmany big cities in Kanto.\\n",
+                .text = "Mirage, Bloomhaven... I hear there are\\nmany big cities in Ostra.\\n",
             },
         },
     },
@@ -6048,7 +6048,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’ll head back to Blackthorn’s Ice Path\\nand train some more.\\n",
+                .text = "I’ll head back to Drakespire’s Ice Path\\nand train some more.\\n",
             },
         },
     },
@@ -7570,7 +7570,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Three years ago, Team Rocket was\\nforced to disband.\\rBut we’re making a comeback here!\\r",
+                .text = "Three years ago, Team Riptide was\\nforced to disband.\\rBut we’re making a comeback here!\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -7632,7 +7632,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "We’re Team Rocket!\\nWe like to cause trouble!\\rOoh! Are you scared?\\r",
+                .text = "We’re Team Riptide!\\nWe like to cause trouble!\\rOoh! Are you scared?\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -7728,7 +7728,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’ve been given strict orders.\\rI’m to crush anyone who challenges\\nTeam Rocket!\\r",
+                .text = "I’ve been given strict orders.\\rI’m to crush anyone who challenges\\nTeam Riptide!\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -7961,7 +7961,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You must have ice in your veins to\\ncall out Team Rocket.\\n",
+                .text = "You must have ice in your veins to\\ncall out Team Riptide.\\n",
             },
         },
     },
@@ -8002,7 +8002,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I lost...\\rPlease forgive me, Giovanni!\\n",
+                .text = "I lost...\\rPlease forgive me, Wake!\\n",
             },
         },
     },
@@ -8240,7 +8240,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I should compile and announce my study\\nfindings. I might even become famous\\flike Professor Elm.\\n",
+                .text = "I should compile and announce my study\\nfindings. I might even become famous\\flike Professor Maren.\\n",
             },
         },
     },
@@ -8622,7 +8622,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Every time I come back to Olivine,\\nI visit the Gym.\\rThe Gym Leader’s Pokémon type\\nchanged without my noticing.\\n",
+                .text = "Every time I come back to Rivetport,\\nI visit the Gym.\\rThe Gym Leader’s Pokémon type\\nchanged without my noticing.\\n",
             },
         },
     },
@@ -8657,7 +8657,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Jasmine must be worried sick about the\\nPokémon here. She won’t even smile\\fthese days.\\r",
+                .text = "Anvila must be worried sick about the\\nPokémon here. She won’t even smile\\fthese days.\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -8665,7 +8665,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Speaking of being sick, I’ve heard\\nthere’s a good Pharmacy in Cianwood.\\n",
+                .text = "Speaking of being sick, I’ve heard\\nthere’s a good Pharmacy in Palemoon.\\n",
             },
         },
     },
@@ -8705,7 +8705,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I wanted to battle Jasmine, but she’s\\nnot up to it now. So how about you?\\r",
+                .text = "I wanted to battle Anvila, but she’s\\nnot up to it now. So how about you?\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -8739,7 +8739,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Jasmine is this city’s Gym Leader.\\nI intend to bring her back with me.\\rNobody better get in my way!\\r",
+                .text = "Anvila is this city’s Gym Leader.\\nI intend to bring her back with me.\\rNobody better get in my way!\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -8850,7 +8850,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "My bird Pokémon trained in Cianwood.\\nSince I’ve lost, maybe we’ll go across\\fthe sea.\\n",
+                .text = "My bird Pokémon trained in Palemoon.\\nSince I’ve lost, maybe we’ll go across\\fthe sea.\\n",
             },
         },
     },
@@ -8876,7 +8876,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "The door won’t open?\\rWell, duh. It has to have a password\\nthat only Team Rocket knows.\\r",
+                .text = "The door won’t open?\\rWell, duh. It has to have a password\\nthat only Team Riptide knows.\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -8884,7 +8884,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Heh, I’m just a Team Rocket Grunt.\\nI don’t know the password.\\fToo bad for you.\\n",
+                .text = "Heh, I’m just a Team Riptide Grunt.\\nI don’t know the password.\\fToo bad for you.\\n",
             },
         },
     },
@@ -9181,7 +9181,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Team Rocket will keep going, waiting for\\nthe return of Giovanni.\\rWe’ll do whatever it takes.\\n",
+                .text = "Team Riptide will keep going, waiting for\\nthe return of Wake.\\rWe’ll do whatever it takes.\\n",
             },
         },
     },
@@ -9369,7 +9369,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Lt. Surge saw my potential with\\nElectric-type Pokémon.\\fThink you can beat me?\\r",
+                .text = "Volt saw my potential with\\nElectric-type Pokémon.\\fThink you can beat me?\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -9377,7 +9377,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The reason that Lt. Surge is protected\\nby electric fences isn’t because\\fhe’s a coward! It’s so you won’t\\funderestimate his strength!\\n",
+                .text = "The reason that Volt is protected\\nby electric fences isn’t because\\fhe’s a coward! It’s so you won’t\\funderestimate his strength!\\n",
             },
         },
     },
@@ -9458,7 +9458,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Mt. Silver is in Johto, right?\\rIt must be a silver mountain!\\r",
+                .text = "Mt. Apex is in Ondine, right?\\rIt must be a silver mountain!\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -9507,7 +9507,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I wonder if there are any mountains\\nworth climbing in Kanto?\\n",
+                .text = "I wonder if there are any mountains\\nworth climbing in Ostra?\\n",
             },
         },
     },
@@ -9550,7 +9550,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m going to Kanto to test my skills.\\r",
+                .text = "I’m going to Ostra to test my skills.\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -9558,7 +9558,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Trainers from Johto can battle with\\nKanto Gym Leaders.\\n",
+                .text = "Trainers from Ondine can battle with\\nKanto Gym Leaders.\\n",
             },
         },
     },
@@ -9724,7 +9724,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "We get different passengers from\\nVermilion City to Olivine City.\\n",
+                .text = "We get different passengers from\\nVermilion City to Rivetport.\\n",
             },
         },
     },
@@ -9856,7 +9856,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [244] = {
-        .name = "Lance",
+        .name = "Soren",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_CHAMPION,
@@ -10009,7 +10009,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [246] = {
-        .name = "Karen",
+        .name = "Nyx",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_ELITE_FOUR_KAREN,
@@ -10081,7 +10081,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [247] = {
-        .name = "Koga",
+        .name = "Thorn",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_ELITE_FOUR_KOGA,
@@ -10373,7 +10373,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [253] = {
-        .name = "Brock",
+        .name = "Flint",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_BROCK,
@@ -10445,7 +10445,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [254] = {
-        .name = "Misty",
+        .name = "Nerissa",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_MISTY,
@@ -10508,7 +10508,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [255] = {
-        .name = "Lt. Surge",
+        .name = "Volt",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_LT_SURGE,
@@ -10580,7 +10580,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [256] = {
-        .name = "Erika",
+        .name = "Ivy",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_ERIKA,
@@ -10643,7 +10643,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [257] = {
-        .name = "Janine",
+        .name = "Nox",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_JANINE,
@@ -10715,7 +10715,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [258] = {
-        .name = "Sabrina",
+        .name = "Sable",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_SABRINA,
@@ -10769,7 +10769,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [259] = {
-        .name = "Blaine",
+        .name = "Ember",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_BLAINE,
@@ -10975,7 +10975,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "This is the real power of Johto...\\n",
+                .text = "This is the real power of Ondine...\\n",
             },
         },
     },
@@ -11551,7 +11551,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_WIN,
-                .text = "Humph. This is my real power, wimp.\\rI’ll make Team Rocket history.\\nAnd I’m going to grind that Lance\\funder my heel.\\n",
+                .text = "Humph. This is my real power, wimp.\\rI’ll make Team Riptide history.\\nAnd I’m going to grind that Soren\\funder my heel.\\n",
             },
         },
     },
@@ -12171,7 +12171,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "I see. You weren’t coming to Kanto just\\nto show off...\\n",
+                .text = "I see. You weren’t coming to Ostra just\\nto show off...\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
@@ -12250,7 +12250,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "I see. You weren’t coming to Kanto just\\nto show off...\\n",
+                .text = "I see. You weren’t coming to Ostra just\\nto show off...\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
@@ -12329,7 +12329,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "I see. You weren’t coming to Kanto just\\nto show off...\\n",
+                .text = "I see. You weren’t coming to Ostra just\\nto show off...\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
@@ -12412,7 +12412,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_WIN,
-                .text = "Humph. This is my real power, wimp.\\rI’ll make Team Rocket history.\\nAnd I’m going to grind that Lance\\funder my heels.\\n",
+                .text = "Humph. This is my real power, wimp.\\rI’ll make Team Riptide history.\\nAnd I’m going to grind that Soren\\funder my heels.\\n",
             },
         },
     },
@@ -12483,7 +12483,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_WIN,
-                .text = "Humph. This is my real power, wimp.\\rI’ll make Team Rocket history.\\nAnd I’m going to grind that Lance\\funder my heel.\\n",
+                .text = "Humph. This is my real power, wimp.\\rI’ll make Team Riptide history.\\nAnd I’m going to grind that Soren\\funder my heel.\\n",
             },
         },
     },
@@ -12565,7 +12565,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It’s a quick swim between Fuchsia and\\nSeafoam Islands...\\rSheesh, some big man my boyfriend is!\\nWhat a wimp!\\n",
+                .text = "It’s a quick swim between Mire and\\nSeafoam Islands...\\rSheesh, some big man my boyfriend is!\\nWhat a wimp!\\n",
             },
         },
     },
@@ -12823,7 +12823,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Swimming is very good for both\\nbeauty and health!\\rJust look at Misty, you’ll see.\\n",
+                .text = "Swimming is very good for both\\nbeauty and health!\\rJust look at Nerissa, you’ll see.\\n",
             },
         },
     },
@@ -12979,7 +12979,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Cycling Road is a quick shortcut\\nto Celadon.\\r",
+                .text = "Cycling Road is a quick shortcut\\nto Bloomhaven.\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -13212,7 +13212,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Hey, you! Trainer from Johto!\\rBrock is tough. He’ll punish you if you\\ndon’t take him seriously.\\n",
+                .text = "Hey, you! Trainer from Ondine!\\rBrock is tough. He’ll punish you if you\\ndon’t take him seriously.\\n",
             },
         },
     },
@@ -13259,7 +13259,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "We’re the Kanto Pokémon Federation\\nTrainer group.\\fWe’ll drive you under our wheels!\\r",
+                .text = "We’re the Ostra Pokémon Federation\\nTrainer group.\\fWe’ll drive you under our wheels!\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -13267,7 +13267,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The Kanto Pokémon Federation will\\nnever fall!\\n",
+                .text = "The Ostra Pokémon Federation will\\nnever fall!\\n",
             },
         },
     },
@@ -13301,7 +13301,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Wiped out by some punk from Johto...\\n",
+                .text = "Wiped out by some punk from Ondine...\\n",
             },
         },
     },
@@ -13334,7 +13334,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "We’re the Kanto Pokémon Federation!\\nRock on!\\r",
+                .text = "We’re the Ostra Pokémon Federation!\\nRock on!\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -13416,7 +13416,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey, you!\\nYou’re from Johto, huh?\\r",
+                .text = "Hey, you!\\nYou’re from Ondine, huh?\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -13424,11 +13424,11 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Don’t get cocky, you Johto punk!\\n",
+                .text = "Don’t get cocky, you Ondine punk!\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Hey! I’ve been waiting for you!\\nYou Johto punk!\\r",
+                .text = "Hey! I’ve been waiting for you!\\nYou Ondine punk!\\r",
             },
         },
     },
@@ -13646,7 +13646,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The greatest fire-breather in Kanto,\\nthat’s me.\\rBut not the best Trainer...\\n",
+                .text = "The greatest fire-breather in Ostra,\\nthat’s me.\\rBut not the best Trainer...\\n",
             },
         },
     },
@@ -13776,7 +13776,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Have you checked out Kanto’s radio\\nprograms? We get a good variety here.\\n",
+                .text = "Have you checked out Ostra’s radio\\nprograms? We get a good variety here.\\n",
             },
         },
     },
@@ -13965,7 +13965,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_INTRO_1,
-                .text = "Jo: We protect Erika!\\r",
+                .text = "Jo: We protect Ivy!\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_1,
@@ -13981,7 +13981,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_DBL_INTRO_2,
-                .text = "Zoe: We’re going to protect Erika!\\r",
+                .text = "Zoe: We’re going to protect Ivy!\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
@@ -14447,15 +14447,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You’re here to defeat Lt. Surge?\\nNot if I can help it!\\r",
+                .text = "You’re here to defeat Volt?\\nNot if I can help it!\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Sorry I failed you, Lt. Surge, sir!\\n",
+                .text = "Sorry I failed you, Volt, sir!\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "When I was in the military, this is what\\nLt. Surge taught me...\\rLock the doors, watch out for fire,\\nand always have two electric fences\\ffor safety!\\n",
+                .text = "When I was in the military, this is what\\nLt. Volt taught me...\\rLock the doors, watch out for fire,\\nand always have two electric fences\\ffor safety!\\n",
             },
         },
     },
@@ -15129,7 +15129,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "There’s no way I can let some unknown\\nTrainer go straight to Erika!\\r",
+                .text = "There’s no way I can let some unknown\\nTrainer go straight to Ivy!\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -15137,7 +15137,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m too ashamed to face Erika!\\n",
+                .text = "I’m too ashamed to face Ivy!\\n",
             },
         },
     },
@@ -15770,7 +15770,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Pant, pant... Just...a little...\\nfarther...to...Fuchsia...\\r",
+                .text = "Pant, pant... Just...a little...\\nfarther...to...Mire...\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -15838,7 +15838,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I guess it’s impossible to swim all the\\nway to Johto.\\r",
+                .text = "I guess it’s impossible to swim all the\\nway to Ondine.\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -16235,7 +16235,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "That Badge!\\rIt’s from Violet City!\\nYou beat Falkner?\\r",
+                .text = "That Badge!\\rIt’s from Windrift Town!\\nYou beat Kestrel?\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -16755,7 +16755,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Lt. Surge hid the electric fences’\\nswitches at the bottom of something...\\rThere are two switches. Once you’ve\\nfound the first, the second switch\\fshould be right next to it.\\n",
+                .text = "Volt hid the electric fences’\\nswitches at the bottom of something...\\rThere are two switches. Once you’ve\\nfound the first, the second switch\\fshould be right next to it.\\n",
             },
         },
     },
@@ -16876,7 +16876,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m going to Kanto to put on\\nfire-breathing shows!\\r",
+                .text = "I’m going to Ostra to put on\\nfire-breathing shows!\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -17219,7 +17219,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Wow. You have a lot of Badges.\\nNo wonder you’re so tough.\\rI wonder if Ecruteak Gym’s Morty is\\nstill in training?\\fHe really hammered me.\\n",
+                .text = "Wow. You have a lot of Badges.\\nNo wonder you’re so tough.\\rI wonder if Lantern Gym’s Wren is\\nstill in training?\\fHe really hammered me.\\n",
             },
         },
     },
@@ -17560,7 +17560,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Karate King, the master of the Fighting\\nDojo, was just destroyed by Sabrina.\\n",
+                .text = "Karate King, the master of the Fighting\\nDojo, was just destroyed by Sable.\\n",
             },
         },
     },
@@ -17636,7 +17636,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [418] = {
-        .name = "Bruno",
+        .name = "Brick",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_ELITE_FOUR_BRUNO,
@@ -17859,7 +17859,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It seems that Johto’s radio shows\\ntalk about Kanto when you are\\fin Kanto...\\n",
+                .text = "It seems that Ondine’s radio shows\\ntalk about Ostra when you are\\fin Ostra...\\n",
             },
         },
     },
@@ -18071,7 +18071,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "We’re on a school trip to the ruins\\noutside Violet.\\n",
+                .text = "We’re on a school trip to the ruins\\noutside Windrift.\\n",
             },
         },
     },
@@ -19532,7 +19532,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I used to work for Silph, but now I run\\nresearch for Team Rocket.\\rA meddlesome child like you needs to be\\npunished.\\r",
+                .text = "I used to work for Silph, but now I run\\nresearch for Team Riptide.\\rA meddlesome child like you needs to be\\npunished.\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -19705,7 +19705,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Do you honestly believe you can stop\\nTeam Rocket?\\n",
+                .text = "Do you honestly believe you can stop\\nTeam Riptide?\\n",
             },
         },
     },
@@ -19847,7 +19847,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [478] = {
-        .name = "Ariana",
+        .name = "Siren",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_EXECUTIVE_ARIANA,
@@ -19884,7 +19884,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Ariana: Hey, you...\\nRemember me from the hideout in\\fMahogany Town?\\rThis time...\\rHee hee hee. This time...it looks like\\nyou’re really all alone. All alone...\\rSo it should be quite easy.\\nBring it! Let’s finish this!\\r\\n",
+                .text = "Siren: Hey, you...\\nRemember me from the hideout in\\fMahogany Town?\\rThis time...\\rHee hee hee. This time...it looks like\\nyou’re really all alone. All alone...\\rSo it should be quite easy.\\nBring it! Let’s finish this!\\r\\n",
             },
             {
                 .type = TRMSG_LAST_POKE,
@@ -19906,7 +19906,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [479] = {
-        .name = "Ariana",
+        .name = "Siren",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_EXECUTIVE_ARIANA,
@@ -19977,7 +19977,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "To get to Pryce, our Gym Leader,\\nyou need to think before you skate.\\r",
+                .text = "To get to Yuki, our Gym Leader,\\nyou need to think before you skate.\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -20151,21 +20151,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I know Pryce’s secret.\\r",
+                .text = "I know Yuki’s secret.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "OK. I’ll tell you Pryce’s secret.\\n",
+                .text = "OK. I’ll tell you Yuki’s secret.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The reason Pryce is strong...\\rIt’s because every day he sits on top\\nof very cold ice and trains his body\\fand spirit!\\n",
+                .text = "The reason Yuki is strong...\\rIt’s because every day he sits on top\\nof very cold ice and trains his body\\fand spirit!\\n",
             },
         },
     },
 
     [485] = {
-        .name = "Archer",
+        .name = "Hook",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_EXECUTIVE_ARCHER,
@@ -20202,7 +20202,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "We can’t have you getting in the way\\nbefore news of our resurgence\\freaches Giovanni!\\n",
+                .text = "We can’t have you getting in the way\\nbefore news of our resurgence\\freaches Wake!\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
@@ -20210,13 +20210,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "No!\\nForgive me, Giovanni!\\n",
+                .text = "No!\\nForgive me, Wake!\\n",
             },
         },
     },
 
     [486] = {
-        .name = "Proton",
+        .name = "Brine",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_EXECUTIVE_PROTON,
@@ -20257,7 +20257,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [487] = {
-        .name = "Petrel",
+        .name = "Squall",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_EXECUTIVE_PETREL,
@@ -20332,7 +20332,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [488] = {
-        .name = "Petrel",
+        .name = "Squall",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_EXECUTIVE_PETREL,
@@ -21074,7 +21074,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_DBL_AFTER_1,
-                .text = "It was like having to battle Lance.\\n",
+                .text = "It was like having to battle Soren.\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_1,
@@ -22860,7 +22860,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You came all the way from Johto?\\nYou must be very persistent!\\n",
+                .text = "You came all the way from Ondine?\\nYou must be very persistent!\\n",
             },
         },
     },
@@ -27847,7 +27847,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [675] = {
-        .name = "Lance",
+        .name = "Soren",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_PKMN_TRAINER_LANCE,
@@ -27905,7 +27905,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Misty says I have gotten much better\\nin the past few years.\\rBut there are still Trainers who are\\nstronger than me.\\n",
+                .text = "Nerissa says I have gotten much better\\nin the past few years.\\rBut there are still Trainers who are\\nstronger than me.\\n",
             },
         },
     },
@@ -28603,7 +28603,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Welcome to Viridian Forest.\\nEnjoy my Bug-type Pokémon!\\r",
+                .text = "Welcome to Tidecrown Forest.\\nEnjoy my Bug-type Pokémon!\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -28795,7 +28795,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [700] = {
-        .name = "Giovanni",
+        .name = "Wake",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_ROCKET_BOSS,
@@ -28858,7 +28858,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [701] = {
-        .name = "Lance",
+        .name = "Soren",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_CHAMPION,
@@ -29020,7 +29020,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [703] = {
-        .name = "Koga",
+        .name = "Thorn",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_ELITE_FOUR_KOGA,
@@ -29101,7 +29101,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [704] = {
-        .name = "Bruno",
+        .name = "Brick",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_ELITE_FOUR_BRUNO,
@@ -29182,7 +29182,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [705] = {
-        .name = "Karen",
+        .name = "Nyx",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_ELITE_FOUR_KAREN,
@@ -29263,7 +29263,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [706] = {
-        .name = "Proton",
+        .name = "Brine",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_EXECUTIVE_PROTON,
@@ -29292,7 +29292,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Proton: Now, wait just one second!\\rAren’t you the one who got in\\nour way at the SLOWPOKE Well?\\rI see... You’re doing all this because\\nyou want to make me angry. Be careful!\\rBut since you seem to wish it, I’ll show\\nyou the full extent of a Team Rocket\\fExecutive’s wrath!\\r",
+                .text = "Brine: Now, wait just one second!\\rAren’t you the one who got in\\nour way at the SLOWPOKE Well?\\rI see... You’re doing all this because\\nyou want to make me angry. Be careful!\\rBut since you seem to wish it, I’ll show\\nyou the full extent of a Team Riptide\\fExecutive’s wrath!\\r",
             },
             {
                 .type = TRMSG_LAST_POKE,
@@ -29308,7 +29308,7 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Proton: You may have won this time...\\nBut all you did was make Team Rocket’s\\fwrath grow...\\n",
+                .text = "Brine: You may have won this time...\\nBut all you did was make Team Riptide’s\\fwrath grow...\\n",
             },
         },
     },
@@ -29414,7 +29414,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [712] = {
-        .name = "Falkner",
+        .name = "Kestrel",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_FALKNER,
@@ -29495,7 +29495,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [713] = {
-        .name = "Bugsy",
+        .name = "Lumi",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_BUGSY,
@@ -29576,7 +29576,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [714] = {
-        .name = "Whitney",
+        .name = "Sunny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_WHITNEY,
@@ -29657,7 +29657,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [715] = {
-        .name = "Morty",
+        .name = "Wren",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_MORTY,
@@ -29738,7 +29738,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [716] = {
-        .name = "Pryce",
+        .name = "Yuki",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_PRYCE,
@@ -29819,7 +29819,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [717] = {
-        .name = "Jasmine",
+        .name = "Anvila",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_JASMINE,
@@ -29900,7 +29900,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [718] = {
-        .name = "Chuck",
+        .name = "Tomo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_CHUCK,
@@ -29981,7 +29981,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [719] = {
-        .name = "Clair",
+        .name = "Ryla",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_CLAIR,
@@ -30062,7 +30062,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [720] = {
-        .name = "Brock",
+        .name = "Flint",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_BROCK,
@@ -30143,7 +30143,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [721] = {
-        .name = "Misty",
+        .name = "Nerissa",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_MISTY,
@@ -30224,7 +30224,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [722] = {
-        .name = "Lt. Surge",
+        .name = "Volt",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_LT_SURGE,
@@ -30305,7 +30305,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [723] = {
-        .name = "Erika",
+        .name = "Ivy",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_ERIKA,
@@ -30386,7 +30386,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [724] = {
-        .name = "Janine",
+        .name = "Nox",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_JANINE,
@@ -30467,7 +30467,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [725] = {
-        .name = "Sabrina",
+        .name = "Sable",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_SABRINA,
@@ -30548,7 +30548,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [726] = {
-        .name = "Blaine",
+        .name = "Ember",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_BLAINE,
@@ -30949,7 +30949,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [733] = {
-        .name = "Lance",
+        .name = "Soren",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_CHAMPION,
@@ -30989,13 +30989,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Did you see that, Clair?\\n",
+                .text = "Did you see that, Ryla?\\n",
             },
         },
     },
 
     [734] = {
-        .name = "Clair",
+        .name = "Ryla",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_CLAIR,

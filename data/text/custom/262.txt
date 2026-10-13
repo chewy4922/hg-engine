@@ -4,6 +4,6 @@ Grandpa, here I am!\rI was playing hide-and-seek\nwith this guy!\r
 Grandpa, here I am!\rI was playing hide-and-seek\nwith this girl!\r
 {STRVAR_1 3, 0, 0}, was it?\nI heard you entertained my\fgranddaughter.\rI want to thank you for that.\nTake this.\r
 {STRVAR_1 3, 0, 0}, was it?\nI heard you entertained my\fgranddaughter.\rI want to thank you for that.\nTake this.\r
-Fast Ship S.S. Aqua\nhas arrived in Vermilion City.
+Fast Ship S.S. Aqua\nhas arrived in Stormcap.
 We’re traveling around the world.
 I had lots of fun!

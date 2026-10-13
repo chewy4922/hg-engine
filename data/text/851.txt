@@ -4,7 +4,7 @@ a {COLOR 255}Koraidon’s Poké Ball{COLOR 0}
 a {COLOR 255}Miraidon’s Poké Ball{COLOR 0}
 a {COLOR 255}Tera Orb{COLOR 0}
 a {COLOR 255}Scarlet Book{COLOR 0}
-a {COLOR 255}Violet Book{COLOR 0}
+a {COLOR 255}Windrift Book{COLOR 0}
 a {COLOR 255}Kofu’s Wallet{COLOR 0}
 
 
@@ -725,7 +725,7 @@ the {COLOR 255}Blueberry Chairs{COLOR 0}
 a {COLOR 255}Synchro Machine{COLOR 0}
 a {COLOR 255}Meteorite{COLOR 0}
 a {COLOR 255}Scarlet Book{COLOR 0}
-a {COLOR 255}Violet Book{COLOR 0}
+a {COLOR 255}Windrift Book{COLOR 0}
 a {COLOR 255}Briar’s Book{COLOR 0}
 a {COLOR 255}Seed of Mastery{COLOR 0}
 a {COLOR 255}Clefablite{COLOR 0}

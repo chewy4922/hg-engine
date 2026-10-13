@@ -95,6 +95,6 @@ Serena: You’re so inspiring to me.\rAll the glory you earned while battling\ns
 Serena: Your Pokémon love that you’ve\nshown at the Battle Hall is as infinitely\fdeep as it is wide...\rIt’s amazing, but you love every kind of\nPokémon there is.\rI love you for being so amazing and\ndedicated!
 Lyra: Hi, {STRVAR_1 3, 0, 0}.\nI love watching you battle here.\rCause...\nyou have fun whether you win\for lose!
 Ethan: The Battle Hall is great for\nPokémon fans like me!\rI get to see so many new kinds of\nPokémon I’ve never seen.\rIt’s so cool!
-Mom: {STRVAR_1 3, 0, 0}!\rI couldn’t help checking up on you!\rEveryone is working hard, but I have\nto say you look more delighted than\fanyone else!\rOh, {STRVAR_1 3, 0, 0}, that’s right!\rI should go to the Department Store\nin Goldenrod and buy some useful\fitems for you on the way home!
+Mom: {STRVAR_1 3, 0, 0}!\rI couldn’t help checking up on you!\rEveryone is working hard, but I have\nto say you look more delighted than\fanyone else!\rOh, {STRVAR_1 3, 0, 0}, that’s right!\rI should go to the Department Store\nin Coralcross and buy some useful\fitems for you on the way home!
 Professor Oak: You keep amazing me\nover and over again.\rWhat a Trainer you turned out to be!\rIt’s not enough that you caught\nPokémon in numbers beyond belief.\rThat alone is fantastic enough.\nBut you’ve bonded and battled with\fthem as well.\rI am so proud to know you!
-Whitney: I love showy events like\nthe Battle Hall.\rI’m not saying that I want to stand out\nin the crowd...\rI just love seeing cute Pokémon\ngetting lots of attention!
+Sunny: I love showy events like\nthe Battle Hall.\rI’m not saying that I want to stand out\nin the crowd...\rI just love seeing cute Pokémon\ngetting lots of attention!

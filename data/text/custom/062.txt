@@ -82,9 +82,9 @@ Kipp: Studying hard on Bug-type\nPokémon doesn’t ensure you’ll win here.
     
    
     
-Bugsy: Hi, {STRVAR_1 3, 0, 0}!\nWe have a Bug-Catching Contest\ftomorrow!\rI have won the Contest many\ntimes, so I won’t participate.\rBut you should try it.\fI’m sure you can win!
-Bugsy: Hi, {STRVAR_1 3, 0, 0}!\nWe have a Bug-Catching Contest\ftomorrow!\rI have won the Contest many\ntimes, so I won’t participate.\rBut you should try it.\nI’m sure you can win!\rBy the way, will you take a\npicture with me? {YESNO 0}
-Bugsy: OK! Let’s take one.\nSmile!\r
-Bugsy: Yay! This is a good one!
-Bugsy: Oh, I see...\nThat’s OK. I’m not sad.
+Lumi: Hi, {STRVAR_1 3, 0, 0}!\nWe have a Bug-Catching Contest\ftomorrow!\rI have won the Contest many\ntimes, so I won’t participate.\rBut you should try it.\fI’m sure you can win!
+Lumi: Hi, {STRVAR_1 3, 0, 0}!\nWe have a Bug-Catching Contest\ftomorrow!\rI have won the Contest many\ntimes, so I won’t participate.\rBut you should try it.\nI’m sure you can win!\rBy the way, will you take a\npicture with me? {YESNO 0}
+Lumi: OK! Let’s take one.\nSmile!\r
+Lumi: Yay! This is a good one!
+Lumi: Oh, I see...\nThat’s OK. I’m not sad.
 Your Photo Album is full.\rAccess your PC and delete\nsome pictures.

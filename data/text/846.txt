@@ -687,7 +687,7 @@ Mysterious dust that can raise\nthe effort level for one of a\nPokémon’s stat
 Mysterious gravel that can raise\nthe effort level for one of a\nPokémon’s stats.\rIt can be used only if the effort level\nis at least level three and no greater\nthan level five.
 A mysterious pebble that can raise\nthe effort level for one of a\nPokémon’s stats.\rIt can be used only if the effort level\nis at least level six and no greater\nthan level eight.
 A mysterious rock that can raise\nthe effort level for one of a\nPokémon’s stats.\rIt can be used only if the effort level\nhas already reached level nine.
-An astonishing medicine that can instantly\nrestore health to any Pokémon. It is\nproduced by an apothecary in Cianwood City.
+An astonishing medicine that can instantly\nrestore health to any Pokémon. It is\nproduced by an apothecary in Palemoon Isle.
 A mysterious charm that tends to be\nlost before any other item when you\nfaint in the field.\rThis type of charm comes in five\ndifferent colors.
 A satchel that someone dropped.
 A satchel that someone dropped.
@@ -735,8 +735,8 @@ Part of a series of old poems\nthat have been unearthed\naround the Hisui region
 A small shard that emanates an enigmatic\npower. Inside the shard, you can see a\npattern that looks like Ramanas roses.
 A large shard that emanates an enigmatic\npower. Inside the shard, you can see a\npattern that looks like Ramanas roses.
 A single-use drill to bore a hole in\nthe wall for your Secret Base.
-A slate overflowing with enigmatic energy.\nYou can feel a strong connection between\nit and the Kanto Room at Ramanas Park.
-A slate overflowing with enigmatic energy.\nYou can feel a strong connection between\nit and the Johto Room at Ramanas Park.
+A slate overflowing with enigmatic energy.\nYou can feel a strong connection between\nit and the Ostra Room at Ramanas Park.
+A slate overflowing with enigmatic energy.\nYou can feel a strong connection between\nit and the Ondine Room at Ramanas Park.
 A slate overflowing with enigmatic energy.\nYou can feel a strong connection between\nit and the Soul Room at Ramanas Park.
 A slate overflowing with enigmatic energy.\nYou can feel a strong connection between\nit and the Rainbow Room at Ramanas Park.
 A slate overflowing with enigmatic energy.\nYou can feel a strong connection between\nit and the Squall Room at Ramanas Park.

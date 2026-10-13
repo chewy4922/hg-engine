@@ -1,4 +1,4 @@
-...Yeah, and the Gym in Cinnabar’s\ngone. I was really amazed.\r...Yes? I’m on the phone.\nGo away!
+...Yeah, and the Gym in Cinder’s\ngone. I was really amazed.\r...Yes? I’m on the phone.\nGo away!
 JIGGLYPUFF: Puu pupuu.
 Most Pokémon get drowsy if they\nhear a JIGGLYPUFF singing.\rThere are several moves that can be\nused only while a Pokémon is asleep.
 Aw...\nIf only I had a HAUNTER...\rIf you have a HAUNTER,\nyou will trade it for my XATU,\fwon’t you? {YESNO 0}

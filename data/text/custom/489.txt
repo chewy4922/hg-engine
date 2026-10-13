@@ -1,2 +1,2 @@
-Do you know about the Magnet Train?\rIt’s a railway that connects\nKanto and Johto.
-Saffron! Saffron!\nI want to go to Saffron City to see\fthe Magnet Train.\rMagnet Train!
+Do you know about the Magnet Train?\rIt’s a railway that connects\nKanto and Ondine.
+Mirage! Mirage!\nI want to go to Mirage Isle to see\fthe Magnet Train.\rMagnet Train!

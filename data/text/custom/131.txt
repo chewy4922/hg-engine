@@ -1,20 +1,20 @@
 ...\rI don’t know why you have come here.\rAnyway, I have to warn you that\nthis is not a place for kids like you.\r
-You have a certain look...\rIt reminds me of the kid who stood in\nfront of me three years ago...\fYou have the same eyes...\r...\rI’m on my way to Goldenrod City to\nanswer the call and join my team.\fAre you going to get in my way?\r
-...\nThis is the Radio Tower.\fThis is the Radio Tower.\fWe are pleased to declare\fTeam Rocket’s revival.\f...Giovanni?\f...Can you hear us?\fWe have finally made it!\f...\r
-My old associates need me...\rWe will not repeat the failure of three\nyears ago!\r{COLOR 1}Team Rocket{COLOR 0} will be born again, and I\nwill rule the world!\r
-Giovanni: How is this possible...?\rThe past three years have been\na waste...?\rHow can a kid like you manage to\ndestroy my dream once again?\rThe precious dream of Team Rocket has\nbecome little more than an illusion...\r
-...\n...Hey!\fWhere has Giovanni gone?\fI wonder if he is listening to\four broadcast...\f...\r
-Giovanni: Mark my words.\rNot being able to measure your own\nstrength shows that you are still\fbut a child.\r
+You have a certain look...\rIt reminds me of the kid who stood in\nfront of me three years ago...\fYou have the same eyes...\r...\rI’m on my way to Coralcross City to\nanswer the call and join my team.\fAre you going to get in my way?\r
+...\nThis is the Radio Tower.\fThis is the Radio Tower.\fWe are pleased to declare\fTeam Riptide’s revival.\f...Wake?\f...Can you hear us?\fWe have finally made it!\f...\r
+My old associates need me...\rWe will not repeat the failure of three\nyears ago!\r{COLOR 1}Team Riptide{COLOR 0} will be born again, and I\nwill rule the world!\r
+Wake: How is this possible...?\rThe past three years have been\na waste...?\rHow can a kid like you manage to\ndestroy my dream once again?\rThe precious dream of Team Riptide has\nbecome little more than an illusion...\r
+...\n...Hey!\fWhere has Wake gone?\fI wonder if he is listening to\four broadcast...\f...\r
+Wake: Mark my words.\rNot being able to measure your own\nstrength shows that you are still\fbut a child.\r
 Ethan: Huh?\rThat’s the guy we just saw arguing with\nthat boy!\r
 Lyra: Huh?\rThat’s the guy we just saw arguing with\nthat boy!\r
 Ethan: Three years ago...?\nGoldenrod City...?\r
 Lyra: Three years ago...?\nGoldenrod City...?\r
 Could this be the one that the radio\nwas trying to reach?\fGiovanni, their boss?\r
 Could this be the one that the radio\nwas trying to reach?\fGiovanni, their boss?\r
-Do you hear it, {STRVAR_1 3, 0, 0}?\nThe radio is saying something strange!\rTeam Rocket has occupied the Radio\nTower at Goldenrod City!\rIt can’t be! {STRVAR_1 3, 0, 0}, you solved\nthis case already!\r
-Do you hear it, {STRVAR_1 3, 0, 0}?\nThe radio is saying something strange!\rTeam Rocket has occupied the Radio\nTower at Goldenrod City!\rIt can’t be! {STRVAR_1 3, 0, 0}, you solved\nthis case already!\r
-Ethan: They keep calling for their boss.\nI feel sorry they don’t know he’s\fnot coming.\rAfter this, {STRVAR_1 3, 0, 0}, you will\ndefeat them!\r...Wait a second!\r{STRVAR_1 3, 0, 0}, you’re still here.\nThen, who will defeat Team Rocket...?\r
-Lyra: They keep calling for their boss.\nI feel sorry they don’t know he’s\fnot coming.\rAfter this, {STRVAR_1 3, 0, 0}, you will\ndefeat them!\r...Wait a second!\r{STRVAR_1 3, 0, 0}, you’re still here.\nThen, who will defeat Team Rocket...?\r
+Do you hear it, {STRVAR_1 3, 0, 0}?\nThe radio is saying something strange!\rTeam Riptide has occupied the Radio\nTower at Coralcross City!\rIt can’t be! {STRVAR_1 3, 0, 0}, you solved\nthis case already!\r
+Do you hear it, {STRVAR_1 3, 0, 0}?\nThe radio is saying something strange!\rTeam Riptide has occupied the Radio\nTower at Coralcross City!\rIt can’t be! {STRVAR_1 3, 0, 0}, you solved\nthis case already!\r
+Ethan: They keep calling for their boss.\nI feel sorry they don’t know he’s\fnot coming.\rAfter this, {STRVAR_1 3, 0, 0}, you will\ndefeat them!\r...Wait a second!\r{STRVAR_1 3, 0, 0}, you’re still here.\nThen, who will defeat Team Riptide...?\r
+Lyra: They keep calling for their boss.\nI feel sorry they don’t know he’s\fnot coming.\rAfter this, {STRVAR_1 3, 0, 0}, you will\ndefeat them!\r...Wait a second!\r{STRVAR_1 3, 0, 0}, you’re still here.\nThen, who will defeat Team Riptide...?\r
 Not again...!\nI’ve had enough!\fPlease let me go back to my time!\r
 Not again...!\nI’ve had enough!\fPlease let me go back to my time!\r
 CELEBI is traveling through time!\nIt is going back to the time before\fthis strange adventure began...\r

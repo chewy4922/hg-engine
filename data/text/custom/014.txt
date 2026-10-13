@@ -3,7 +3,7 @@ Please wait a moment...\nPress the B Button to cancel.
 Let’s check out {STRVAR_1 3, 0, 0}’s\nTrainer Card...\r...It’s a Normal Card!
 Let’s check out {STRVAR_1 3, 0, 0}’s\nTrainer Card...\r...It’s a Cobalt Card!
 Let’s check out {STRVAR_1 3, 0, 0}’s\nTrainer Card...\r...It’s an Olive Card!
-Let’s check out {STRVAR_1 3, 0, 0}’s\nTrainer Card...\r...It’s a Violet Card!
+Let’s check out {STRVAR_1 3, 0, 0}’s\nTrainer Card...\r...It’s a Windrift Card!
 Let’s check out {STRVAR_1 3, 0, 0}’s\nTrainer Card...\r...It’s a Gray Card!
 Let’s check out {STRVAR_1 3, 0, 0}’s\nTrainer Card...\r...It’s a Black Card!
               

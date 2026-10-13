@@ -13,4 +13,4 @@ How soon can I expect to see you?\nDon’t forget, {STRVAR_1 4, 3, 0}!
 Sorry, I haven’t found anything useful\nyet... I promise, if I find anything, you\fcan have it!
 I picked up something nice today.\nI want you to have it, so I called!\rYou will come for it, won’t you?\n{STRVAR_1 4, 3, 0} is where I am.
 I’m getting really impatient, waiting to\ngive you my present!\rHurry over to {STRVAR_1 4, 3, 0}!
-Have you heard about Team Rocket?\rThey’ve taken over the Radio Tower in\nGoldenrod.\rAre the people inside safe?
+Have you heard about Team Riptide?\rThey’ve taken over the Radio Tower in\nGoldenrod.\rAre the people inside safe?

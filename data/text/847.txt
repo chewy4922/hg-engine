@@ -735,8 +735,8 @@ an {COLOR 255}Old Verse 20{COLOR 0}
 a {COLOR 255}Mysterious Shard S{COLOR 0}
 a {COLOR 255}Mysterious Shard L{COLOR 0}
 a {COLOR 255}Digger Drill{COLOR 0}
-a {COLOR 255}Kanto Slate{COLOR 0}
-a {COLOR 255}Johto Slate{COLOR 0}
+a {COLOR 255}Ostra Slate{COLOR 0}
+a {COLOR 255}Ondine Slate{COLOR 0}
 a {COLOR 255}Soul Slate{COLOR 0}
 a {COLOR 255}Rainbow Slate{COLOR 0}
 a {COLOR 255}Squall Slate{COLOR 0}

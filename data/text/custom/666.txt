@@ -5,26 +5,26 @@ Hello, this is Professor Oak!\rYou’re catching a lot of Pokémon,\naren’t yo
 Hello, this is Professor Oak!\nYour Pokédex is really filling up!
 Hello, this is Professor Oak!\rYou’re moving along at an\nincredible pace! You remind me of\fmyself when I was younger!
 Hello, this is Professor Oak!\rIf you start to get tired, you should\ntake a break. Don’t push yourself\ftoo hard!
-This is Professor Oak...\rWhen I’m recording my radio show, I\nhave to travel back and forth between\fKanto and Johto. It gets a bit tiring...\rOh, but never mind that! You’re doing a\ngreat job on filling your Pokédex!
-Hello, this is Professor Oak!\rIt looks like you’ve found some Pokémon\nthat aren’t from the Johto or the\fKanto regions, haven’t you?\rYou’re a strong Trainer, and you’re\nreally making some discoveries!
+This is Professor Oak...\rWhen I’m recording my radio show, I\nhave to travel back and forth between\fKanto and Ondine. It gets a bit tiring...\rOh, but never mind that! You’re doing a\ngreat job on filling your Pokédex!
+Hello, this is Professor Oak!\rIt looks like you’ve found some Pokémon\nthat aren’t from the Ondine or the\fKanto regions, haven’t you?\rYou’re a strong Trainer, and you’re\nreally making some discoveries!
 ...This is Professor Oak.\nI’ve been so busy with my research\fthat I haven’t gotten much\fsleep lately...\rOh, but never mind that!\nYou’ve made such good progress on your\fPokédex. I can’t wait to see it!
 Hello, this is Professor Oak!\rHave you noticed that your circle of\nfriends has gotten bigger since you\fstarted working on the Pokédex?\fThat’s the best thing about Pokémon!
-Hello, this is Professor Oak!\nYou know, I don’t see many wonderful\fTrainers such as yourself very\foften lately!\rI’ll have to thank Professor Elm for\nintroducing us!
+Hello, this is Professor Oak!\nYou know, I don’t see many wonderful\fTrainers such as yourself very\foften lately!\rI’ll have to thank Professor Maren for\nintroducing us!
 Hello, this is Professor Oak!\nOh, you don’t have to say anything!\fI know better than anyone else how\fhard you’re working!\rI thought I should get you a present\nor something in appreciation...\fWell, I picked something up, but I\fcompletely forgot to give it to you!\fHa ha ha!\rOh, you don’t have to wonder about it\nat all. I know it’s something that will\fbe very helpful to you. You should just\fcome here and pick it up!\rI’ll be waiting for you at my Laboratory\nin Pallet Town!\n
 Hello, this is Professor Oak...\nOh, hello, {STRVAR_1 3, 0, 0}!\r
 Hello, this is Professor Oak...\nOh, hello, {STRVAR_1 3, 0, 0}!\r
 So, how’s your Pokédex coming along?
 Quit
 Have Pokédex Evaluated
-Have Johto Pokédex Evaluated
+Have Ondine Pokédex Evaluated
 Have National Pokédex Evaluated
 Hmm, let’s see...\nYou’ve seen {STRVAR_1 52, 5, 0} Pokémon, and\fyou’ve caught {STRVAR_1 52, 6, 0} Pokémon!\fI see!\r
 Show me your Pokédex again anytime!
-Wow!\nThat is a complete Johto Pokédex!\rThanks to you, {STRVAR_1 3, 0, 0}, the Johto\nPokédex is complete!\rWow...\nYou’ve done an incredible job!
-Wow!\nThat is a complete Johto Pokédex!\rThanks to you, {STRVAR_1 3, 0, 0}, the Johto\nPokédex is complete!\rWow...\nYou’ve done an incredible job!
+Wow!\nThat is a complete Ondine Pokédex!\rThanks to you, {STRVAR_1 3, 0, 0}, the Ondine\nPokédex is complete!\rWow...\nYou’ve done an incredible job!
+Wow!\nThat is a complete Ondine Pokédex!\rThanks to you, {STRVAR_1 3, 0, 0}, the Ondine\nPokédex is complete!\rWow...\nYou’ve done an incredible job!
 Excellent!\nThat is an amazing National Pokédex!\rWow...\nYou’ve lived up to my expectations\fwonderfully!\rNo, you’ve exceeded them,\n{STRVAR_1 3, 0, 0}. You’ve become an\famazing Trainer!\rThank you, {STRVAR_1 3, 0, 0}!
 Excellent!\nThat is an amazing National Pokédex!\rWow...\nYou’ve lived up to my expectations\fwonderfully!\rNo, you’ve exceeded them,\n{STRVAR_1 3, 0, 0}. You’ve become an\famazing Trainer!\rThank you, {STRVAR_1 3, 0, 0}!
-Really, you’ve surprised me!\rBut just as I expected, you’ve\ncompleted the Johto Pokédex.\fI am so grateful!\rIf you’ve got that much determination,\nthen even more exciting adventures\fawait you in the world of Pokémon!
+Really, you’ve surprised me!\rBut just as I expected, you’ve\ncompleted the Ondine Pokédex.\fI am so grateful!\rIf you’ve got that much determination,\nthen even more exciting adventures\fawait you in the world of Pokémon!
 You have truly surprised me!\rYou’ve more than exceeded my\nexpectations. You’ve gone far past\fthem in completing the\fNational Pokédex!\rI’m speechless...!\rBecause of this, the world of Pokémon\nand Trainers is more vast, deeper,\fand more abundant!\rNow there will be no end to\nPokémon research!
 Look for Pokémon in grassy areas!\r
 Good. I see you understand how to use\nPoké Balls.\r
@@ -37,7 +37,7 @@ Excellent! You seem to be good at\ncollecting things!\r
 Some Pokémon only appear during\ncertain times of the day.\r
 Your Pokédex is really filling up.\nKeep up the good work!\r
 I’m impressed.\nYou’re evolving Pokémon, not just\fcatching them.\r
-If you can learn how to use the custom\nPoké Balls made by Kurt effectively,\fyou’ll be able to catch Pokémon better!\r
+If you can learn how to use the custom\nPoké Balls made by Nemo effectively,\fyou’ll be able to catch Pokémon better!\r
 When you trade Pokémon, you can also\ntrade information. Your friends can\freally help you!\r
 Are you trading your Pokémon?\nIt’s tough to do this alone!\r
 Wow! You’ve reached 200!\nYour Pokédex is looking great!\r

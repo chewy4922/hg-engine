@@ -53,14 +53,14 @@ PI
 Guitarist
 Ace Trainer
 Ace Trainer
-Team Rocket
+Team Riptide
 Skier
 Roughneck
 Clown
 Worker
 School Kid
 School Kid
-Team Rocket
+Team Riptide
 Burglar
 Firebreather
 Biker
@@ -122,7 +122,7 @@ Mystery Man
 Double Team
 Young Couple
 ₧₦ Trainer
-Rocket Boss
+Riptide Boss
 ₧₦ Trainer
 ₧₦ Trainer
 ₧₦ Trainer

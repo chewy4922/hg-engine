@@ -1,18 +1,18 @@
-Hello, {STRVAR_1 3, 0, 0}? We discovered\nsomething about the Egg!\rMy assistant is at the Pokémon Center\nin Violet City.\fCould you talk to him?
+Hello, {STRVAR_1 3, 0, 0}? We discovered\nsomething about the Egg!\rMy assistant is at the Pokémon Center\nin Windrift Town.\fCould you talk to him?
 Bonjour!\nYou are Trainer?\rBattle Gym Leader, win you did? {YESNO 0}
 Ooh, la la!\nVery indeed nice!
 Is that so? Then study shall you!\fFollow me!\r
 Here, teacher I am.\nGood it is you study here!\r
 There have been reports of Ghost-type\nPokémon appearing in Sprout Tower.\rThey say Normal-type Pokémon moves\nhave no effect on them.
 Hey, you’re a Pokémon Trainer?\rIf you beat the Gym Leader here,\nyou’ll be ready for prime time!
-Falkner, from the Violet City Pokémon\nGym, is a fine Trainer!\rHe inherited his father’s Gym and\nhas done a great job with it.
+Kestrel, from the Windrift Town Pokémon\nGym, is a fine Trainer!\rHe inherited his father’s Gym and\nhas done a great job with it.
 You cannot have your Pokémon out\nwalking with you in some places.\rPlaces like buildings, caves, and\nwhere there are huge crowds.\rBut all you have to do is to put it in\na Poké Ball!
-Violet City\nThe City of Nostalgic Scents
-Violet City Pokémon Gym\nLeader: Falkner\fThe Elegant Master of Flying Pokémon
+Windrift Town\nThe City of Nostalgic Scents
+Windrift Town Pokémon Gym\nLeader: Kestrel\fThe Elegant Master of Flying Pokémon
 Sprout Tower\rExperience the Way of Pokémon\nto Cast Aside Your Doubts.
 Pokémon School\rEarl will show you all\nthere is to Pokémon!
 Me oh my...\nThat Egg must be...!\r
-I see...\nSo it was handed from Mr. Pokémon to\fProfessor Elm, then from Professor Elm\fto you.\rNow I get it...\r
+I see...\nSo it was handed from Mr. Pokémon to\fProf. Maren, then from Prof. Maren\fto you.\rNow I get it...\r
 That Egg is truly an important Egg.\nPlease do take good care of it for me.\rIs that understood?\r
 I am counting on you.\r
 Shard de Berry!\nShard de Berry!\rYah, yah!\nI trade Berry for a Shard.\rIf ya bring me some Shards,\nI will give ya three Berries, yah.\r

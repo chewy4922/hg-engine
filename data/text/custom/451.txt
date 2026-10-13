@@ -1,12 +1,12 @@
-Professor Oak: Ah, {STRVAR_1 3, 0, 0}!\nIt’s good of you to come all this way\fto Kanto.\rWhat do you think of the Trainers\nout here?\fPretty tough, huh?\r
-Professor Oak: Ah, {STRVAR_1 3, 0, 0}!\nIt’s good of you to come all this way\fto Kanto.\rWhat do you think of the Trainers\nout here?\fPretty tough, huh?\r
+Professor Oak: Ah, {STRVAR_1 3, 0, 0}!\nIt’s good of you to come all this way\fto Ostra.\rWhat do you think of the Trainers\nout here?\fPretty tough, huh?\r
+Professor Oak: Ah, {STRVAR_1 3, 0, 0}!\nIt’s good of you to come all this way\fto Ostra.\rWhat do you think of the Trainers\nout here?\fPretty tough, huh?\r
                                 
 If you’re in the area, I hope you\ncome visit again.
 You never cease to amaze me!\rYour having completed the National\nPokédex far exceeded my expectations!\rMeeting you is something l will cherish\nall my life long!\r
 You never cease to amaze me!\rYour having completed the National\nPokédex far exceeded my expectations!\rMeeting you is something l will cherish\nall my life long!\r
-Professor Oak: Those Badges are...\rWow! You have not only become the\nJohto Champion, but you’ve collected\fall the Kanto Badges! Well done!\rHmm... No wonder I sensed something\nin you when we met.\rTell you what, {STRVAR_1 3, 0, 0}.\rI’ll make arrangements so that you can\ngo to Mt. Silver.\rMt. Silver is a big mountain that is\nhome to many wild Pokémon.\rIt’s too dangerous for your average\nTrainer, so it’s off limits.\rBut we can make an exception in your\ncase, {STRVAR_1 3, 0, 0}.\rGo to the Pokémon League\nReception Gate.\rYou can reach Mt. Silver from there.
-Professor Oak: Those Badges are...\rWow! You have not only become the\nJohto Champion, but you’ve collected\fall the Kanto Badges! Well done!\rHmm... No wonder I sensed something\nin you when we met.\rTell you what, {STRVAR_1 3, 0, 0}.\rI’ll make arrangements so that you can\ngo to Mt. Silver.\rMt. Silver is a big mountain that is\nhome to many wild Pokémon.\rIt’s too dangerous for your average\nTrainer, so it’s off limits.\rBut we can make an exception in your\ncase, {STRVAR_1 3, 0, 0}.\rGo to the Pokémon League\nReception Gate.\rYou can reach Mt. Silver from there.
-Professor Oak: Hmm? You’re not\ncollecting Kanto Gym Badges?\rThe Gym Leaders in Kanto are as tough\nas any you battled in Johto.\fI recommend that you challenge them.\r
+Professor Oak: Those Badges are...\rWow! You have not only become the\nJohto Champion, but you’ve collected\fall the Ostra Badges! Well done!\rHmm... No wonder I sensed something\nin you when we met.\rTell you what, {STRVAR_1 3, 0, 0}.\rI’ll make arrangements so that you can\ngo to Mt. Apex.\rMt. Silver is a big mountain that is\nhome to many wild Pokémon.\rIt’s too dangerous for your average\nTrainer, so it’s off limits.\rBut we can make an exception in your\ncase, {STRVAR_1 3, 0, 0}.\rGo to the Pokémon League\nReception Gate.\rYou can reach Mt. Apex from there.
+Professor Oak: Those Badges are...\rWow! You have not only become the\nJohto Champion, but you’ve collected\fall the Ostra Badges! Well done!\rHmm... No wonder I sensed something\nin you when we met.\rTell you what, {STRVAR_1 3, 0, 0}.\rI’ll make arrangements so that you can\ngo to Mt. Apex.\rMt. Silver is a big mountain that is\nhome to many wild Pokémon.\rIt’s too dangerous for your average\nTrainer, so it’s off limits.\rBut we can make an exception in your\ncase, {STRVAR_1 3, 0, 0}.\rGo to the Pokémon League\nReception Gate.\rYou can reach Mt. Apex from there.
+Professor Oak: Hmm? You’re not\ncollecting Ostra Gym Badges?\rThe Gym Leaders in Ostra are as tough\nas any you battled in Ondine.\fI recommend that you challenge them.\r
 Professor Oak: Ah, you’re collecting\nKanto Gym Badges.\rI imagine that it’s hard, but the\nexperience will surely help you.\rCome see me when you get them all.\nI’ll have a gift for you.\fKeep it up, {STRVAR_1 3, 0, 0}!\r
 Professor Oak: Ah, you’re collecting\nKanto Gym Badges.\rI imagine that it’s hard, but the\nexperience will surely help you.\rCome see me when you get them all.\nI’ll have a gift for you.\fKeep it up, {STRVAR_1 3, 0, 0}!\r
 Professor Oak: Oh, {STRVAR_1 3, 0, 0}!\nWhat brought you here?\r
@@ -31,16 +31,16 @@ Professor Oak: You will? Good!\nAre you ready?\r
 Professor Oak: Yes!\nIt’s a good memento!
 Professor Oak: Really?\nThere is no need to be reserved...
 Your Photo Album is full.\rAccess your PC and delete\nsome pictures.\n
-The Professor’s Pokémon Talk\nradio show is aired here and\fin Johto as well.\rProfessor Oak is so...cool!
+The Professor’s Pokémon Talk\nradio show is aired here and\fin Ondine as well.\rProfessor Oak is so...cool!
 {STRVAR_1 3, 0, 0}, thanks to your work on\nthe Pokédex, the Professor’s\fresearch is coming along well.
 So you are {STRVAR_1 3, 0, 0}?\r...Just between you and me,\nThe Professor’s show, Pokémon Talk,\fis not live radio!
 There are many books.\nMost of the covers are worn out.
-There’s an email message on the PC.\r...\rHi, Professor Oak!\nHow is your research coming along?\rI’m...doing fine.\rI heard that {STRVAR_1 3, 0, 0} is getting\nquite a reputation.\rThat’s what we hear on the grapevine.\nI’m delighted to hear that.\f           Elm in New Bark Town 8-)
-There’s an email message on the PC.\r...\rHi, Professor Oak!\nHow is your research coming along?\rI’m...doing fine.\rI heard that {STRVAR_1 3, 0, 0} is getting\nquite a reputation.\rThat’s what we hear on the grapevine.\nI’m delighted to hear that.\f           Elm in New Bark Town 8-)
+There’s an email message on the PC.\r...\rHi, Professor Oak!\nHow is your research coming along?\rI’m...doing fine.\rI heard that {STRVAR_1 3, 0, 0} is getting\nquite a reputation.\rThat’s what we hear on the grapevine.\nI’m delighted to hear that.\f           Maren in Saltbloom Town 8-)
+There’s an email message on the PC.\r...\rHi, Professor Oak!\nHow is your research coming along?\rI’m...doing fine.\rI heard that {STRVAR_1 3, 0, 0} is getting\nquite a reputation.\rThat’s what we hear on the grapevine.\nI’m delighted to hear that.\f           Maren in Saltbloom Town 8-)
 Professor Oak: Hello, {STRVAR_1 3, 0, 0}.\nGood to see you.\fI heard a lot about you.\rYour Pokédex must be close\nto complete?\rFor all your hard work,\nI would like to give you something.\r
 Professor Oak: Hello, {STRVAR_1 3, 0, 0}.\nGood to see you.\fI heard a lot about you.\rYour Pokédex must be close\nto complete?\rFor all your hard work,\nI would like to give you something.\r
 Professor Oak: Haha!\rWhat’s behind me...\nYou must have figured it out right away.\rYes, it is a Pokémon!\r
-Professor Oak: You don’t see them\nvery often in Kanto.\fChoose one and it’ll be yours!\r...Go ahead!
+Professor Oak: You don’t see them\nvery often in Ostra.\fChoose one and it’ll be yours!\r...Go ahead!
 So, you’re claiming the\nFire Pokémon CHARMANDER? {YESNO 0}
 So, you’ve decided on the\nWater Pokémon SQUIRTLE? {YESNO 0}
 So, you want to go with\nthe Grass Pokémon BULBASAUR? {YESNO 0}

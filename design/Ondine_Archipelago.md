@@ -36,7 +36,7 @@ Gym types follow the gym **buildings** they reuse, so the interiors don't need r
                                          |
                                  PEBBLECOVE
                                          |
-                                 SALTBLOOM VILLAGE (home, Prof. Maren's lab)
+                                 SALTBLOOM TOWN (home, Prof. Maren's lab)
                           ~~~~~~~~ open sea ~~~~~~~~
 ```
 
@@ -44,7 +44,7 @@ Gym types follow the gym **buildings** they reuse, so the interiors don't need r
 
 | # | New town | Replaces | Gym type | Leader | Theme |
 |---|---|---|---|---|---|
-| — | Saltbloom Village | New Bark Town | — | — | Beach hometown; lab with starters from every region |
+| — | Saltbloom Town | New Bark Town | — | — | Beach hometown; lab with starters from every region |
 | — | Pebblecove | Cherrygrove City | — | — | Fishing village, first Pokémon Center |
 | 1 | Windrift Town | Violet City | Flying | **Kestrel** | Cliff-top town, windmills, gliders |
 | 2 | Bloomreef | Azalea Town | Bug | **Lumi** | Jungle island, bug-catching festival |
@@ -53,10 +53,11 @@ Gym types follow the gym **buildings** they reuse, so the interiors don't need r
 | 5 | Palemoon Isle | Cianwood City | Fighting | **Tomo** | Surf-only island, beach dojo |
 | 6 | Rivetport | Olivine City | Steel | **Anvila** | Shipyard; sick Ampharos → sick Lapras |
 | 7 | Frostveil | Mahogany Town | Ice | **Yuki** | Snowy north island, villain hideout under the souvenir shop |
-| 8 | Drakespire | Blackthorn City | Dragon | **Ryder** | Volcanic sea stacks; Dragon's Den → Dragon Reef |
+| 8 | Drakespire | Blackthorn City | Dragon | **Ryla** | Volcanic sea stacks; Dragon's Den → Dragon Reef |
 | — | Crown Isle | Indigo Plateau | League | Elite Four + Champion | Volcano-peak League |
 
 ## Outer Isles (post-game, replace Kanto)
+In game text the Outer Isles are called the **Ostra** region (Kanto → Ostra), and Johto → **Ondine**.
 
 | # | Island | Replaces | Type | Leader |
 |---|---|---|---|---|
@@ -68,7 +69,7 @@ Gym types follow the gym **buildings** they reuse, so the interiors don't need r
 | 14 | Mirage Isle | Saffron City | Psychic | **Sable** |
 | 15 | Cinder Isle | Seafoam Islands (Blaine) | Fire | **Ember** |
 | 16 | Tidecrown | Viridian City | Mixed (strongest) | **Captain Reef** (former Champion) |
-| ★ | Summit Peak | Mt. Silver | — | Final secret battle |
+| ★ | Mt. Apex | Mt. Silver | — | Final secret battle |
 
 ## Elite Four & Champion (Crown Isle)
 
@@ -78,12 +79,12 @@ Gym types follow the gym **buildings** they reuse, so the interiors don't need r
 | Thorn | Koga | Poison | Toxapex |
 | Brick | Bruno | Fighting | Lucario |
 | Nyx | Karen | Dark | Hydreigon |
-| **Champion Solene** | Lance | Mixed | Dragapult + Kingdra |
+| **Champion Soren** | Lance | Mixed | Dragapult + Kingdra |
 
 ## Story
 - **Team Riptide** (replaces Team Rocket) believe the islands should "return to the sea".
   They want to wake **Kyogre** and flood the archipelago so only their ships rule the waves.
-- Their admins replace Ariana, Archer, Proton and Petrel. Their boss, **Admiral Wake**, replaces Giovanni.
+- Their admins **Siren, Hook, Brine and Squall** replace Ariana, Archer, Proton and Petrel. Their boss, **Admiral Wake** (just "Wake" in the game text), replaces Giovanni.
 - **Lugia** (already in HeartGold) is the islands' guardian. The Whirl Islands become the
   **Abyssal Isles**, where you meet it.
 - Climax: Team Riptide's flagship at the Abyssal Isles. Kyogre wakes, and Lugia (with you) calms the storm.
@@ -94,7 +95,7 @@ Gym types follow the gym **buildings** they reuse, so the interiors don't need r
 - **Prof. Maren**: marine biologist, replaces Prof. Elm (uses Elm's sprite at first). Has a starter from every region.
 - **Rival Kai**: cheerful, cocky island kid. Takes the starter **strong against yours, from the same region**
   (needs a code change; the rival is still Johto-based right now).
-- **Kurt → Shipwright Nell**: makes special Poké Balls from shells.
+- **Kurt → Shipwright Nemo**: makes special Poké Balls from shells.
 
 ## Pokémon by island (draft, all gens mixed)
 
@@ -113,7 +114,7 @@ Gym types follow the gym **buildings** they reuse, so the interiors don't need r
 
 ## Build order
 1. ✅ Engine + starters from every region (tested: More → Alola → Litten)
-2. Text pass: rename towns, Prof. Maren, Team Riptide, gym leaders (text and scripts only, maps unchanged)
+2. ✅ Text pass: towns, Prof. Maren, Team Riptide, all 16 leaders + E4 renamed (`scripts/ondine_renames.py`; maps unchanged)
 3. Wild encounters for the Inner Isles (`data/Encounters.c`)
 4. Gym leaders + trainers with mixed-gen teams (`data/Trainers.c`); rival matches your starter's region
 5. Sprites: Team Riptide, leaders, Maren (Gen 5–9 trainer art where possible)

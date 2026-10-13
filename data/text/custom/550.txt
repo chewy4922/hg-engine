@@ -14,12 +14,12 @@ Select the Pokégear on the\nTouch Screen and then select\fthe Town Map icon.\rY
 ...\rYou got a Pokémon at the Lab.\nWhat a waste.\rThat’s a Pokémon that’s too good for\na wimp like you.\r...\nDon’t you get what I’m saying?\rWell, I too have a good Pokémon.\nI’ll show you what I mean!\r
 ...\rDo you want to know who I am?\n...\rI’m going to be the world’s greatest\nPokémon Trainer.\r
 Give it back!\nThat’s my Trainer Card!\rOh no!\nYou saw my name...\r
-Did you talk to the old man by the\nPokémon Center?\rHe’ll put a Map of Johto on your\nPokégear.
+Did you talk to the old man by the\nPokémon Center?\rHe’ll put a Map of Ondine on your\nPokégear.
 When you’re with Pokémon,\ngoing anywhere is fun.
 Mr. Pokémon’s house is still farther\nup ahead.\rYou could use the Running Shoes if\nyou had a pair.\rBut beware of wild Pokémon and\nTrainers!\rWhen you run, the noise will\nattract them.
 I battled the Trainers on the road.\nMy Pokémon lost.\rThey’re a mess! I must take them to\na Pokémon Center.
 A Pokémon I caught had an item.\nI think it’s Mystic Water.\rI don’t need it, so do you want it?\r
 Back to fishing for me, then.
 You don’t have room for this.
-Cherrygrove City\nThe City of Fragrant Flowers
+Pebblecove\nThe City of Fragrant Flowers
 Guide Gent’s House\nFull-of-Energy, High-Speed Old Man

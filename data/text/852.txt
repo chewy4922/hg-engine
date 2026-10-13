@@ -4,7 +4,7 @@
 {COLOR 255}Miraidon’s Poké Balls{COLOR 0}
 {COLOR 255}Tera Orbs{COLOR 0}
 {COLOR 255}copies of the Scarlet Book{COLOR 0}
-{COLOR 255}copies of the Violet Book{COLOR 0}
+{COLOR 255}copies of the Windrift Book{COLOR 0}
 {COLOR 255}Kofu’s Wallets{COLOR 0}
 
 
@@ -725,7 +725,7 @@
 {COLOR 255}Synchro Machines{COLOR 0}
 {COLOR 255}Meteorites{COLOR 0}
 {COLOR 255}copies of the Scarlet Book{COLOR 0}
-{COLOR 255}copies of the Violet Book{COLOR 0}
+{COLOR 255}copies of the Windrift Book{COLOR 0}
 {COLOR 255}copies of Briar’s Book{COLOR 0}
 {COLOR 255}Seeds of Mastery{COLOR 0}
 {COLOR 255}Clefablites{COLOR 0}

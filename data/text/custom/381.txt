@@ -8,5 +8,5 @@ What should I make my Pokémon hold?\rMaybe an item that increases\nits Attack p
 Bonjour.\nHow are you?\fAre you picking Apricorns? {YESNO 0}
 Way to go, little Apricorn collector!\rI feel so great, I want to give\nyou this!\r
 How come? What a waste!\rI will show you how great\nApricorns are!\rTake this first.\r
-Lure Ball!\nThis Poké Ball makes it easy to catch\fthe Pokémon that appear when you\fgo fishing!\rActually, this is made from Apricorns.\nConsider those two as small gifts\ffrom me.\rIf you want more, go to Azalea Town.\nA man called Kurt can make special\fPoké Balls out of Apricorns.\rApricorns rule!
-Kurt is the hero of every Apricorn\ncollector out there.\rIf you are to go to Azalea Town,\nbe sure to visit him.\rApricorn, Apricornier, Apricorniest!
+Lure Ball!\nThis Poké Ball makes it easy to catch\fthe Pokémon that appear when you\fgo fishing!\rActually, this is made from Apricorns.\nConsider those two as small gifts\ffrom me.\rIf you want more, go to Bloomreef.\nA man called Nemo can make special\fPoké Balls out of Apricorns.\rApricorns rule!
+Nemo is the hero of every Apricorn\ncollector out there.\rIf you are to go to Bloomreef,\nbe sure to visit him.\rApricorn, Apricornier, Apricorniest!

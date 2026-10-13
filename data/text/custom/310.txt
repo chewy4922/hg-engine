@@ -24,7 +24,7 @@ Mendel
 Amelie
 Noel
 Jet
-Whitney
+Sunny
 Susie
 Heath
 Rory
@@ -38,13 +38,13 @@ Nick
 Allie
 Kuni
 Neil
-Jasmine
+Anvila
 Madge
 Hudson
 Hubert
 Gayle
 Brent
 Linda
-Falkner
+Kestrel
 Amelie
 Jude

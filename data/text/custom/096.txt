@@ -72,7 +72,7 @@ Congratulations on achieving Rank {STRVAR_1 51, 0, 0}.\nYour winning Pokémon te
                                             
                     
 Congratulations on achieving your\n50-win streak.\fYour winning Pokémon team has won\fspecial Ribbons for this feat!
-As you can see, Battle Frontier is a\ngreat facility.\rYou know what?\rApparently, similar facilities are\navailable outside of Johto.
+As you can see, Battle Frontier is a\ngreat facility.\rYou know what?\rApparently, similar facilities are\navailable outside of Ondine.
 Thank you for playing!\rYour Pokémon will be restored to\nfull...\fOh my!\rI’m not on duty today.\nI’m just here to enjoy myself.
 Me?\rI just made a debut as an Idol!\fI haven’t gotten much work yet.\rSo whenever I have time, I come here\nto battle Pokémon.
 I trained my little guy till we\ncouldn’t take any more.\rHe’s going to do a 50-win streak\nfor sure...\rRight, PIKACHU?
