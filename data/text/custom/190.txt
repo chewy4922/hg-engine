@@ -1,0 +1,9 @@
+Professor Elm: Touch a Poké Ball to\nsee what Pokémon is inside!
+Professor Elm: So, you like this\n{COLOR 3}Grass-type{COLOR 0} Pokémon?
+Professor Elm: You’ll take this\n{COLOR 1}Fire-type{COLOR 0} Pokémon?
+Professor Elm: Do you want this\n{COLOR 2}Water-type{COLOR 0} Pokémon?
+A {COLOR 3}Grass-type{COLOR 0} Pokémon is\nin this Poké Ball!
+A {COLOR 1}Fire-type{COLOR 0} Pokémon is\nin this Poké Ball!
+A {COLOR 2}Water-type{COLOR 0} Pokémon is\nin this Poké Ball!
+Once you’ve decided, touch a Poké Ball!
+Touch the Poké Ball button to select.\nTouch elsewhere to change your selection.

@@ -1,6 +1,7 @@
 #include "../include/constants/species.h"
 #include "../include/pokemon.h"
 #include "../include/types.h"
+#include "../include/save.h"
 
 extern u32 space_for_setmondata;
 extern u32 sStarterChoiceCries[];
@@ -16,11 +17,31 @@ void LONG_CALL GetMonSpriteCharAndPlttNarcIdsEx(MON_PIC *picdata, u16 mons_no, u
 // This will NOT update the text during the starter-selection
 // sequence. To update that text, modify text archive 190 in
 // DSPRE.
-static const u16 sStarterChoices[3] = {
-    SPECIES_CHIKORITA,
-    SPECIES_CYNDAQUIL,
-    SPECIES_TOTODILE,
+// Script var holding the starter region the player picked: 1 = Kanto ... 9 = Paldea.
+// Any other value (e.g. 0 before the region menu runs) falls back to Johto.
+#define STARTER_REGION_VAR 0x40F9
+#define NUM_STARTER_REGIONS 9
+
+static const u16 sStarterChoicesByRegion[NUM_STARTER_REGIONS][3] = {
+    { SPECIES_BULBASAUR,  SPECIES_CHARMANDER, SPECIES_SQUIRTLE },  // Kanto
+    { SPECIES_CHIKORITA,  SPECIES_CYNDAQUIL,  SPECIES_TOTODILE },  // Johto
+    { SPECIES_TREECKO,    SPECIES_TORCHIC,    SPECIES_MUDKIP },    // Hoenn
+    { SPECIES_TURTWIG,    SPECIES_CHIMCHAR,   SPECIES_PIPLUP },    // Sinnoh
+    { SPECIES_SNIVY,      SPECIES_TEPIG,      SPECIES_OSHAWOTT },  // Unova
+    { SPECIES_CHESPIN,    SPECIES_FENNEKIN,   SPECIES_FROAKIE },   // Kalos
+    { SPECIES_ROWLET,     SPECIES_LITTEN,     SPECIES_POPPLIO },   // Alola
+    { SPECIES_GROOKEY,    SPECIES_SCORBUNNY,  SPECIES_SOBBLE },    // Galar
+    { SPECIES_SPRIGATITO, SPECIES_FUECOCO,    SPECIES_QUAXLY },    // Paldea
 };
+
+static const u16 *GetStarterChoices(void)
+{
+    u16 region = GetScriptVar(STARTER_REGION_VAR);
+    if (region < 1 || region > NUM_STARTER_REGIONS) {
+        region = 2;
+    }
+    return sStarterChoicesByRegion[region - 1];
+}
 
 /**
  *  @brief fills the given array with the species ids of the starter choices
@@ -31,7 +52,7 @@ void LONG_CALL CreateStarter_SetStarterSpecies(int *species)
 {
     for (int i = 0; i < 3; i++) {
         // strip off form
-        species[i] = sStarterChoices[i] & 0x7FF;
+        species[i] = GetStarterChoices()[i] & 0x7FF;
     }
 }
 
@@ -47,7 +68,7 @@ void LONG_CALL CreateStarter_CreateMon(struct PartyPokemon *mon, int species, in
     u32 form = 0;
 
     if (slot >= 0 && slot < 3) {
-        form = sStarterChoices[slot] >> 11;
+        form = GetStarterChoices()[slot] >> 11;
     }
 
     space_for_setmondata = form;
@@ -70,7 +91,7 @@ void LONG_CALL CreateMonSprites_HandleForm(MON_PIC *pic, u16 species, u8 gender,
     u32 form = 0;
 
     if (slot >= 0 && slot < 3) {
-        form = sStarterChoices[slot] >> 11;
+        form = GetStarterChoices()[slot] >> 11;
         sStarterChoiceCries[slot] = (form == 0) ? species : PokeOtherFormMonsNoGet(species, form);
     }
 
