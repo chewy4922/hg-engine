@@ -113,4 +113,6 @@ Kalos
 Alola
 Galar
 Paldea
-Professor Elm: I have starter Pokémon from\nevery region! Which region would you like?
+Professor Elm: I have starters\nfrom every region. Pick a region!
+More
+Back

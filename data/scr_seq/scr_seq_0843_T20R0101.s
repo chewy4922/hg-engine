@@ -188,21 +188,38 @@ scr_seq_T20R0101_012:
 	lockall
 	faceplayer
 	goto_if_set FLAG_GOT_STARTER, _0331
-	// pick the region whose starter trio fills the three Poke Balls (read by src/starters.c)
+	// pick the region whose starter trio fills the three Poke Balls (read by src/starters.c).
+	// Two pages because vanilla menus never exceed 8 items. Values: 1-9 region, 10 More, 11 Back, B = back to page 1.
 	npc_msg 115
+_HH_RegionPage1:
 	touchscreen_menu_hide
-	menu_init 1, 1, 0, 0, VAR_SPECIAL_RESULT
+	menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
 	menu_item_add 106, 255, 1
 	menu_item_add 107, 255, 2
 	menu_item_add 108, 255, 3
 	menu_item_add 109, 255, 4
 	menu_item_add 110, 255, 5
+	menu_item_add 116, 255, 10
+	menu_exec
+	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 10
+	goto_if_eq _HH_RegionPage2
+	compare VAR_SPECIAL_RESULT, 9
+	goto_if_gt _HH_RegionPage1
+	goto _HH_RegionChosen
+_HH_RegionPage2:
+	touchscreen_menu_hide
+	menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
 	menu_item_add 111, 255, 6
 	menu_item_add 112, 255, 7
 	menu_item_add 113, 255, 8
 	menu_item_add 114, 255, 9
+	menu_item_add 117, 255, 11
 	menu_exec
 	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 9
+	goto_if_gt _HH_RegionPage1
+_HH_RegionChosen:
 	closemsg
 	copyvar 0x40F9, VAR_SPECIAL_RESULT
 	choose_starter
