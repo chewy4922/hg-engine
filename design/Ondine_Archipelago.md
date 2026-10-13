@@ -1,0 +1,122 @@
+# Ondine Archipelago — Region Design (v0.1)
+
+A chain of tropical-to-arctic islands in a warm southern sea. You hop island to island
+by ferry, sandbar and bridge, and later by Surf and Fly. Pokémon from **every generation (1–9)** live
+here together. Every island has a gym: **8 Inner Isles** for the badge quest and
+**8 Outer Isles** after the League (16 gyms total, using all of HeartGold's gyms).
+
+## Build rule: reuse HeartGold's slots
+Each new place **replaces** an HGSS town or route (like High Hill Island did with Sinnoh), so
+story flags, gym scripts, badge checks and the Kanto post-game unlock keep working.
+Gym types follow the gym **buildings** they reuse, so the interiors don't need rebuilding (they can still change later).
+
+## Map
+
+```
+                         ~~ OUTER ISLES (post-game) ~~
+     Basalt  Coralline  Stormcap  Bloomhaven  Mire   Mirage   Cinder   Tidecrown
+     (Rock)  (Water)    (Elec)    (Grass)   (Poison)(Psychic) (Fire)   (Final)
+        \________\________\_________|_________/_______/________/________/
+                                    |  Ferry: S.S. Gull
+                          ▲ CROWN ISLE ▲  (Pokémon League, volcano peak)
+                                    |
+        FROSTVEIL ─── sea route ─── DRAKESPIRE
+        (Gym 7 Ice)                 (Gym 8 Dragon)
+            |                            |
+       RIVETPORT ─── sea route ─── PALEMOON ISLE
+       (Gym 6 Steel)               (Gym 5 Fighting)
+            |                            |
+       LANTERN KEY ── bridge ──── MISTVEIL
+       (Gym 4 Ghost)                     |
+            |                     CORALCROSS CITY
+       BLOOMREEF ─── jungle path ─ (Gym 3 Normal, biggest city)
+       (Gym 2 Bug)                       |
+            |                     WINDRIFT TOWN
+            └──────── sandbar ──── (Gym 1 Flying)
+                                         |
+                                 PEBBLECOVE
+                                         |
+                                 SALTBLOOM VILLAGE (home, Prof. Maren's lab)
+                          ~~~~~~~~ open sea ~~~~~~~~
+```
+
+## Inner Isles → HG slot they replace
+
+| # | New town | Replaces | Gym type | Leader | Theme |
+|---|---|---|---|---|---|
+| — | Saltbloom Village | New Bark Town | — | — | Beach hometown; lab with starters from every region |
+| — | Pebblecove | Cherrygrove City | — | — | Fishing village, first Pokémon Center |
+| 1 | Windrift Town | Violet City | Flying | **Kestrel** | Cliff-top town, windmills, gliders |
+| 2 | Bloomreef | Azalea Town | Bug | **Lumi** | Jungle island, bug-catching festival |
+| 3 | Coralcross City | Goldenrod City | Normal | **Sunny** | Big port city; Radio Tower → Surf Shop Tower |
+| 4 | Lantern Key | Ecruteak City | Ghost | **Wren** | Lighthouse ruins; Burned Tower → Sunken Shrine |
+| 5 | Palemoon Isle | Cianwood City | Fighting | **Tomo** | Surf-only island, beach dojo |
+| 6 | Rivetport | Olivine City | Steel | **Anvila** | Shipyard; sick Ampharos → sick Lapras |
+| 7 | Frostveil | Mahogany Town | Ice | **Yuki** | Snowy north island, villain hideout under the souvenir shop |
+| 8 | Drakespire | Blackthorn City | Dragon | **Ryder** | Volcanic sea stacks; Dragon's Den → Dragon Reef |
+| — | Crown Isle | Indigo Plateau | League | Elite Four + Champion | Volcano-peak League |
+
+## Outer Isles (post-game, replace Kanto)
+
+| # | Island | Replaces | Type | Leader |
+|---|---|---|---|---|
+| 9 | Basalt Isle | Pewter City | Rock | **Flint** |
+| 10 | Coralline | Cerulean City | Water | **Nerissa** |
+| 11 | Stormcap | Vermilion City | Electric | **Volt** |
+| 12 | Bloomhaven | Celadon City | Grass | **Ivy** |
+| 13 | Mire Isle | Fuchsia City | Poison | **Nox** |
+| 14 | Mirage Isle | Saffron City | Psychic | **Sable** |
+| 15 | Cinder Isle | Seafoam Islands (Blaine) | Fire | **Ember** |
+| 16 | Tidecrown | Viridian City | Mixed (strongest) | **Captain Reef** (former Champion) |
+| ★ | Summit Peak | Mt. Silver | — | Final secret battle |
+
+## Elite Four & Champion (Crown Isle)
+
+| Trainer | Replaces | Type | Ace |
+|---|---|---|---|
+| Coral | Will | Water/Fairy | Primarina |
+| Thorn | Koga | Poison | Toxapex |
+| Brick | Bruno | Fighting | Lucario |
+| Nyx | Karen | Dark | Hydreigon |
+| **Champion Solene** | Lance | Mixed | Dragapult + Kingdra |
+
+## Story
+- **Team Riptide** (replaces Team Rocket) believe the islands should "return to the sea".
+  They want to wake **Kyogre** and flood the archipelago so only their ships rule the waves.
+- Their admins replace Ariana, Archer, Proton and Petrel. Their boss, **Admiral Wake**, replaces Giovanni.
+- **Lugia** (already in HeartGold) is the islands' guardian. The Whirl Islands become the
+  **Abyssal Isles**, where you meet it.
+- Climax: Team Riptide's flagship at the Abyssal Isles. Kyogre wakes, and Lugia (with you) calms the storm.
+- The Ho-Oh / Bell Tower story becomes the **Sun Shrine**. Ho-Oh stays as the second legend.
+- Raikou, Entei and Suicune roam the sea routes. Tapu Koko, Lele, Bulu and Fini guard four Outer Isles.
+
+## Characters
+- **Prof. Maren**: marine biologist, replaces Prof. Elm (uses Elm's sprite at first). Has a starter from every region.
+- **Rival Kai**: cheerful, cocky island kid. Takes the starter **strong against yours, from the same region**
+  (needs a code change; the rival is still Johto-based right now).
+- **Kurt → Shipwright Nell**: makes special Poké Balls from shells.
+
+## Pokémon by island (draft, all gens mixed)
+
+| Area | Pokémon |
+|---|---|
+| Saltbloom / beach route | Wingull, Pikipek, Wooloo, Crabrawler, Corphish, Skwovet, Lechonk |
+| Windrift cliffs | Rookidee, Hoppip, Swablu, Fletchling, Bunnelby, Flittle |
+| Bloomreef jungle | Grubbin, Cutiefly, Nymble, Sewaddle, Aipom, Fomantis, Tarountula |
+| Coralcross city/coast | Alolan Rattata, Galarian Meowth, Trubbish, Yamper, Tandemaus |
+| Lantern Key ruins | Gastly, Litwick, Sandygast, Greavard, Shuppet, Phantump |
+| Sea routes (Surf/fishing) | Tentacool, Wailmer, Finizen, Mareanie, Wishiwashi, Clauncher, Skrelp, Bruxish |
+| Palemoon / Rivetport | Machop, Riolu, Mienfoo, Klink, Tinkatink, Pawniard, Magnemite |
+| Frostveil | Snorunt, Cetoddle, Snom, Cubchoo, Bergmite, Hisuian Sneasel |
+| Drakespire volcano | Larvesta, Salandit, Charcadet, Axew, Deino, Goomy, Frigibax, Jangmo-o |
+| Rare / hidden | Dratini, Larvitar, Beldum, Gible, Dreepy, Rotom, Zorua, Eevee |
+
+## Build order
+1. ✅ Engine + starters from every region (tested: More → Alola → Litten)
+2. Text pass: rename towns, Prof. Maren, Team Riptide, gym leaders (text and scripts only, maps unchanged)
+3. Wild encounters for the Inner Isles (`data/Encounters.c`)
+4. Gym leaders + trainers with mixed-gen teams (`data/Trainers.c`); rival matches your starter's region
+5. Sprites: Team Riptide, leaders, Maren (Gen 5–9 trainer art where possible)
+6. Map work in DSPRE: beaches, sea routes, island shapes (the biggest job)
+7. Story events: the Kyogre / Lugia climax
+8. Outer Isles post-game
