@@ -359,6 +359,8 @@ all: $(OUTPUT) $(OVERLAY_OUTPUTS) $(TOOLS) $(BASE)/arm9.bin
 	$(MAKE) move_narc
 	$(ARMIPS) armips/global.s $(ARMIPS_FLAGS)
 	$(NARCHIVE) create $(FILESYS)/a/0/2/8 $(BUILD)/a028/ -nf
+	@# map edits made in DSPRE (see scripts/dspre.py)
+	$(PYTHON) scripts/dspre.py apply --filesys $(FILESYS) --arm9 $(BASE)/arm9.bin
 	@echo "Making ROM..."
 ifeq ($(ROM_TOOL),$(DSROM))
 	$(DSROM_BRIDGE) pack --rom $(BUILDROM)
