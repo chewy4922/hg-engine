@@ -117,7 +117,7 @@ In game text the Outer Isles are called the **Ostra** region (Kanto → Ostra), 
 2. ✅ Text pass: towns, Prof. Maren, Team Riptide, all 16 leaders + E4 renamed (`scripts/ondine_renames.py`; maps unchanged)
 3. ✅ Wild encounters for the Inner Isles: 62 areas by zone (`scripts/ondine_encounters.py`; Kanto/Outer Isles still vanilla)
 4. ✅ Gym Leaders, Elite Four, Champion, Boss Wake and all Team Riptide teams (`scripts/ondine_trainers.py`); rival's starter follows your region (`src/starters.c` + `src/field/enemy_party.c`). Regular trainers still vanilla.
-5. Sprites: Team Riptide, leaders, Maren (Gen 5–9 trainer art where possible)
+5. 🔶 Battle sprites from Black 2 (`scripts/ondine_trainer_gfx.py`): Sunny=Lenora, Tomo=Marshal, Ryla=Iris, Coral=Marlon, Brick=Clay, Nyx=Caitlin, Soren=Drayden, Wake=Ghetsis, Riptide grunts=Plasma grunts, Hook=Colress, rival=Hugh. Still HeartGold art: Kestrel, Lumi, Wren, Anvila, Yuki, Thorn, Siren/Brine/Squall, Maren; overworld sprites not done.
 6. Map work in DSPRE: beaches, sea routes, island shapes (the biggest job)
 7. Story events: the Kyogre / Lugia climax
 8. Outer Isles post-game
