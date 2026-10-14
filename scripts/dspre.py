@@ -137,6 +137,10 @@ def dump(members):
             subprocess.run(["git", "checkout", "--", str(path)], cwd=ROOT, check=True)
 
 
+def vanilla_header_table():
+    return header_table(arm9(ndspy.rom.NintendoDSRom.fromFile(VANILLA)))
+
+
 def apply(args):
     filesys, arm9_path = Path(args.filesys), Path(args.arm9)
     n = 0
@@ -145,12 +149,14 @@ def apply(args):
             if src.is_file():
                 shutil.copyfile(src, filesys / src.relative_to(FILES))
                 n += 1
-    if HEADERS.exists():
-        code = bytearray(arm9_path.read_bytes())
-        table = HEADERS.read_bytes()
+    # base/arm9.bin is reused between builds, so always write a table: the stored DSPRE one,
+    # or vanilla HeartGold's when there is none (otherwise an old edit would linger)
+    code = bytearray(arm9_path.read_bytes())
+    table = HEADERS.read_bytes() if HEADERS.exists() else vanilla_header_table()
+    if code[MAP_HEADERS_OFFSET:MAP_HEADERS_OFFSET + len(table)] != table:
         code[MAP_HEADERS_OFFSET:MAP_HEADERS_OFFSET + len(table)] = table
         arm9_path.write_bytes(bytes(code))
-        n += 1
+    n += HEADERS.exists()
     if n:
         print(f"dspre: applied {n} stored map edit(s)")
 

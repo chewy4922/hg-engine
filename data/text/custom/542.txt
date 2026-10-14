@@ -10,7 +10,7 @@ Call your mom on your Pokégear to\nlet her know how you’re doing.
 I like your Bag!
 Wait a sec!\r
 Did you leave your Pokégear at home?\rYou should ask your mom.
-Yo, {STRVAR_1 3, 0, 0}!\rI hear Professor Maren discovered some\nnew Pokémon.
+At high tide the waves roll right up\nto the houses here!\rKeep your Pokémon away from the edge\nof the beach when the tide comes in.
 ...\rSo this is the famous Maren Lab...\r
 ...What are you staring at?\r
 Lyra: {STRVAR_1 3, 0, 0}!\rSo you picked...\n{STRVAR_1 0, 1, 0}!\rThat’s a cute Pokémon you have!\rWhen you walk with it, it’ll become\nmore friendly.\rYou should turn around and talk to it\nsometimes, too.\rOh, that’s right!\nWhy don’t you show it to your mom?\fSee ya!\r
@@ -32,7 +32,7 @@ Where do you think you’re going,\n{STRVAR_1 3, 0, 0}?\r
 Lyra: Hmm... My Pokémon may be\nputting on some weight lately...
 Ethan: Hmm... My Pokémon may be\nputting on some weight lately...
 MARILL: Murfu.\r
-Saltbloom Town\nWinds of a New Beginning
+Saltbloom Town\nWhere the sea breeze begins
 {STRVAR_1 3, 0, 0}’s House
 Maren Pokémon Lab
 {STRVAR_1 3, 0, 0}’s House
