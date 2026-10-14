@@ -32,5 +32,5 @@ Nox: I can’t use my ninja technique,\nbut I won’t let you win!\r
 Nox: I lost today,\nbut I’ll win next time!
 Ember: You keep your word.\nThat’s a good thing, kiddo!\r
 Ember: Waaah!\rIf I had known this Dojo was going to be\navailable, I wouldn’t have needed to\frebuild my Gym.\rWait! I still did, didn’t I?
-Blue: Good!\nThanks for coming to lose to me!\r
-Blue: Hahaha!\nMy scare tactic doesn’t scare you\fat all!
+Reef: Good!\nThanks for coming to lose to me!\r
+Reef: Hahaha!\nMy scare tactic doesn’t scare you\fat all!

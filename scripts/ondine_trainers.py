@@ -19,7 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 TRAINERS = ROOT / "data/Trainers.c"
 sys.path.insert(0, str(ROOT / "scripts"))
-from ondine_encounters import fit  # noqa: E402
+from ondine_encounters import NEXT as NEXT_LEVEL, fit  # noqa: E402
 
 # trainer id -> [(species, level), ...]; last entry is the ace
 TEAMS = {
@@ -40,6 +40,27 @@ TEAMS = {
     244: [("GYARADOS", 46), ("NOIVERN", 48), ("HAXORUS", 48), ("GARCHOMP", 48), ("KINGDRA", 49), ("DRAGAPULT", 50)],    # Champion Soren
     # Team Riptide's boss
     700: [("SHARPEDO", 40), ("DREDNAW", 41), ("TOXAPEX", 42), ("KINGLER", 42), ("GYARADOS", 46)],                         # Wake
+    # Outer Isles gyms (post-game, first battles)
+    253: [("LYCANROC", 51), ("BOLDORE", 51), ("CARBINK", 52), ("COALOSSAL", 52), ("GARGANACL", 53), ("TYRANITAR", 54)],  # Flint, Rock
+    254: [("BARRASKEWDA", 49), ("PELIPPER", 49), ("CLAWITZER", 50), ("WISHIWASHI", 51), ("PALAFIN", 52), ("STARMIE", 54)],  # Nerissa, Water
+    255: [("PAWMOT", 47), ("BOLTUND", 48), ("TOXTRICITY", 49), ("VIKAVOLT", 50), ("BELLIBOLT", 50), ("ELECTIVIRE", 53)],   # Volt, Electric
+    256: [("TSAREENA", 51), ("LURANTIS", 52), ("LEAVANNY", 52), ("WHIMSICOTT", 53), ("TANGROWTH", 54), ("BELLOSSOM", 56)],  # Ivy, Grass
+    257: [("DRAGALGE", 45), ("TOXICROAK", 46), ("GLIMMORA", 47), ("OVERQWIL", 48), ("GRAFAIAI", 48), ("CROBAT", 50)],     # Nox, Poison
+    258: [("ESPATHRA", 53), ("HATTERENE", 53), ("INDEEDEE", 54), ("BRUXISH", 54), ("GALLADE", 54), ("ALAKAZAM", 55)],      # Sable, Psychic
+    259: [("TURTONATOR", 54), ("CENTISKORCH", 55), ("TORKOAL", 56), ("HOUNDOOM", 56), ("ARMAROUGE", 57), ("VOLCARONA", 59)],  # Ember, Fire
+    261: [("CORVIKNIGHT", 55), ("KINGAMBIT", 56), ("LAPRAS", 56), ("ANNIHILAPE", 57), ("BAXCALIBUR", 58), ("KOMMO_O", 60)],  # Captain Reef
+}
+
+# Rematch id -> (first-battle id, extra species). The rematch keeps HeartGold's rematch
+# levels; species are the first team plus the extras (ace stays last, 6 max), each moved
+# along its evolution line to suit its new level.
+REMATCHES = {
+    712: (20, ["SWABLU", "RUFFLET"]), 713: (21, ["GRUBBIN", "SEWADDLE"]), 714: (30, ["WOOLOO", "TANDEMAUS"]),
+    715: (31, ["DREEPY", "SINISTEA"]), 716: (32, ["FRIGIBAX", "SNOM"]), 717: (33, ["PAWNIARD", "DURALUDON"]),
+    718: (34, ["TIMBURR", "PASSIMIAN"]), 719: (35, ["DEINO", "DRAMPA"]),
+    720: (253, []), 721: (254, []), 722: (255, []), 723: (256, []), 724: (257, []), 725: (258, []),
+    726: (259, []), 727: (261, []),
+    701: (244, []), 702: (245, []), 703: (247, []), 704: (418, []), 705: (246, []),   # Champion + E4
 }
 
 RIPTIDE_CLASSES = {"TRAINERCLASS_TEAM_ROCKET", "TRAINERCLASS_TEAM_ROCKET_F", "TRAINERCLASS_EXECUTIVE_ARIANA",
@@ -134,6 +155,29 @@ def pick_moves(species, level):
     return chosen + ["NONE"] * (4 - len(chosen))
 
 
+def load_other_evolutions():
+    """species -> first evolution that isn't a plain level-up one (stone, trade, friendship...)."""
+    src = (ROOT / "data/Evolutions.c").read_text(encoding="utf-8")
+    other = {}
+    for m in re.finditer(r"\[SPECIES_(\w+)\]\s*=\s*\{\s*\.entries\s*=\s*\{(.*?)\}\s*,?\s*\}", src, re.S):
+        # the parameter can be a level, an item or a move name
+        for method, _, target in re.findall(r"\{\s*(EVO_\w+)\s*,\s*(\w+)\s*,\s*SPECIES_(\w+)\s*\}", m.group(2)):
+            if target != "NONE" and not method.startswith("EVO_LEVEL") and method != "EVO_NONE":
+                other.setdefault(m.group(1), target)
+    return other
+
+
+OTHER_EVOS = load_other_evolutions()
+REMATCH_FULL_EVO_LEVEL = 40   # rematch mons this strong use stone/trade/friendship evolutions too
+
+
+def rematch_fit(species, level):
+    species = fit(species, level)
+    while level >= REMATCH_FULL_EVO_LEVEL and species in OTHER_EVOS and species not in NEXT_LEVEL:
+        species = fit(OTHER_EVOS[species], level)
+    return species
+
+
 def mon_block(indent, ivs, species, level, item, moves, has_items, has_moves):
     lines = [f"{indent}{{", f"{indent}    .ivs = {ivs},", f"{indent}    .abilitySlot = TRAINER_POKEMON_ABILITY_1,",
              f"{indent}    .level = {level},", f"{indent}    .species = SPECIES_{species},"]
@@ -153,9 +197,18 @@ def rewrite(m):
     head, tid, data, party, tail = m.group(1), int(m.group(2)), m.group(3), m.group(4), m.group(5)
     has_items = "TRAINER_DATA_TYPE_ITEMS" in data
     has_moves = "TRAINER_DATA_TYPE_MOVES" in data
-    if tid in TEAMS:
+    if tid in TEAMS or tid in REMATCHES:
         ivs = re.search(r"\.ivs = (\d+)", party).group(1)
-        team = TEAMS[tid]
+        if tid in TEAMS:
+            team = TEAMS[tid]
+        else:
+            base, extras = REMATCHES[tid]
+            names = [sp for sp, _ in TEAMS[base]]
+            names = (names[:-1] + extras)[-5:] + names[-1:]          # extras before the ace, 6 max
+            levels = sorted(int(x) for x in re.findall(r"\.level = (\d+)", party))
+            levels = (levels + [levels[-1]] * 6)[:6]                   # pad if HG's rematch was smaller
+            levels = sorted(levels)[-len(names):]
+            team = [(rematch_fit(sp, lv), lv) for sp, lv in zip(names, levels)]
         blocks = []
         for i, (sp, lv) in enumerate(team):
             item = "SITRUS_BERRY" if i == len(team) - 1 else "NONE"
@@ -193,14 +246,20 @@ def main():
             assert sp in known, sp
     for sp in RIPTIDE_SWAPS.values():
         assert sp in known, sp
+    for base, extras in REMATCHES.values():
+        assert base in TEAMS, base
+        for sp in extras:
+            assert sp in known, sp
     out, n = ENTRY.subn(rewrite, src)
     TRAINERS.write_text(out, encoding="utf-8")
     found = {int(t) for t in re.findall(r"\n    \[(\d+)\] = \{\n        \.name", src)}
-    print(f"scanned {n} trainers; rewrote {len(set(TEAMS) & found)} teams" +
-          (f"; missing ids {sorted(set(TEAMS) - found)}" if set(TEAMS) - found else ""))
-    for tid, team in TEAMS.items():
-        sp, lv = team[-1]
-        print(f"  {tid}: ace {sp.title()} L{lv} -> {', '.join(m.title() for m in pick_moves(sp, lv) if m != 'NONE')}")
+    wanted = set(TEAMS) | set(REMATCHES)
+    print(f"scanned {n} trainers; rewrote {len(wanted & found)} teams" +
+          (f"; missing ids {sorted(wanted - found)}" if wanted - found else ""))
+    for tid in sorted(wanted & found):
+        m = re.search(r"\n    \[" + str(tid) + r"\] = \{\n        \.name = \"([^\"]*)\".*?\.party = \{(.*?)\n        \},\n", out, re.S)
+        mons = re.findall(r"\.level = (\d+),\n\s*\.species = SPECIES_(\w+)", m.group(2))
+        print(f"  {tid} {m.group(1)}: " + ", ".join(f"{sp.title()} {lv}" for lv, sp in mons))
 
 
 if __name__ == "__main__":

@@ -7,7 +7,7 @@ Huh?\nWait, aren’t you nearby?\fDo you like the phone that much?
 I recently began observing wild\n{STRVAR_1 0, 10, 0}.\rI’ve been learning all sorts of new\nthings through my observations.\rI wish I could become a Pokémon\nresearcher like Professor Oak soon.\rSee you later!
 Oh yes, I managed to knock out a wild\n{STRVAR_1 0, 11, 0} a while back.\rWell, considering all the Pokémon\nstudying I do every day,\fit was inevitable.\rSee you later!
 Oh yes, I came close to catching\na wild {STRVAR_1 0, 11, 0}, but it got away.\rFor the longest time, I’ve been wanting\nto observe {STRVAR_1 0, 11, 0}. Man...\rSee you later!\n
-Do you know Blue?\rHe’s Professor Oak’s grandson and a\nformer Pokémon League Champion!\fHe’s one super Pokémon Trainer!\rSee you later!
+Do you know Reef?\rHe’s Professor Oak’s grandson and a\nformer Pokémon League Champion!\fHe’s one super Pokémon Trainer!\rSee you later!
 Professor Oak has a granddaughter\nnamed Daisy.\rWhen she’s around, even the most\nferocious Pokémon calm right down.\rSee you later!
 Everyone’s talking about\nProfessor Maren.\rHe used to be an assistant to the great\nProfessor Oak!\rThat is so cool! I envy him!\rSee you later!
 Professor Oak’s dream is to compile a\ncomprehensive Pokédex.\rI envy you for taking part in that\nproject...\rSee you later!

@@ -30,7 +30,7 @@ A right
 B down
 Red
 Green
-Blue
+Reef
 Alpha
 Light 1
 Light 2

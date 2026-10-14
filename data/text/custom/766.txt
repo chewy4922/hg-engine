@@ -114,7 +114,7 @@ Sorry! Something’s come up!\nI can’t talk now!\r
 {STRVAR_1 3, 0, 0}:\nLet’s see... Over here...\r
 {STRVAR_1 3, 0, 0}:\nWell, if it were me...\r
 Red
-Blue
+Reef
 Yellow
 Green
 Tough-looking ones

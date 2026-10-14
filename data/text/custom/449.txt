@@ -7,7 +7,7 @@ Daisy: I always have tea around\nthis time. Come join me.
 Daisy: You don’t want to have one\ngroomed? OK, we’ll just have tea.
 Daisy: Oh, sorry. I honestly can’t\ngroom an Egg.
 Daisy: You are really into grooming!\nSay!\fWould you like my kid brother’s number?\rHe is the Gym Leader at Tidecrown.\nHave you challenged him?\rDo you want to register him? {YESNO 0}
-{STRVAR_1 3, 0, 0} registered Blue\nin the Pokégear!
+{STRVAR_1 3, 0, 0} registered Reef\nin the Pokégear!
 Daisy: Give him a call when you feel\nlike it.\rHe can be overly confident, but he\nstill needs company.\rHe said he won’t have any plans on\nSunday nights...\fGiggle!
 Daisy: Really? You won’t?\nI see...\fHow disappointing.
 Daisy: Do you want to register\nmy kid brother’s number? {YESNO 0}

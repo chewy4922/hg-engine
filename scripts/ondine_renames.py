@@ -95,7 +95,10 @@ def rename(s):
 
 # Names that are also everyday words ("Will") are only renamed in these exact spots.
 EXACT_TEXT = [("I am Will.", "I am Coral.")]
-EXACT_C_LITERALS = {'"Will"': '"Coral"'}
+EXACT_C_LITERALS = {'"Will"': '"Coral"', '"Blue"': '"Reef"'}
+# Blue (Viridian's leader) -> Reef only where it's his name: followed by punctuation,
+# a line break or the end of the line - never "Blue Apricorn", "Blue-Sky", "Blue\nTablecloth".
+EXACT_TEXT_RE = [(re.compile(r"(?<![A-Za-z-])Blue(?=[:.!?’,]|\\n(?!Tablecloth)|$)", re.M), "Reef")]
 
 
 def rename_c_strings(src):
@@ -178,6 +181,8 @@ def main():
         if f.suffix == ".txt":
             for a, b in EXACT_TEXT:
                 new = new.replace(a, b)
+            for pat, b in EXACT_TEXT_RE:
+                new = pat.sub(b, new)
         if new == old:
             continue
         changed += 1

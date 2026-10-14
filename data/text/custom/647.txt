@@ -1,4 +1,4 @@
-Blue
+Reef
 Wha... I can’t make out what you’re\nsaying! This connection is no good!\rCall from somewhere better, OK?
 Hello...\nWhatever... Don’t worry about me.\fI’m doing peachy over here!\r
 Are there any Gym Leaders you haven’t\nbattled yet?\fMake your move! Show some initiative!
@@ -8,7 +8,7 @@ Whatever!\nI won’t lose to you again, got that?\rI’ll be waiting at the Figh
 Whatever. Sounds like you’re pretty\nbusy yourself.
 Wha...?\nOh, c’mon... Haven’t you made plans\fwith enough other people?
 I’m waiting at the Fighting Dojo in\nSaffron City.\fC’mon, show a little initiative here!
-I’m Blue.\r
+I’m Reef.\r
 Remember we made plans to battle at\nthe Fighting Dojo in Mirage Isle?\fWha...! Did you seriously forget?\fC’mon, I don’t have all day!
 When I look at Pokémon, I get a strange\nfeeling--you ever get that?\rThere’s round ones, square ones, flying\nones, swimming ones, flaming ones,\ffreezing ones, shiny ones, dark ones--\fthere are so many different types, and\fyet, they’re all Pokémon.\rI mean, like Pokémon, there’s not\njust one type of person, either...\rBut it’s still kind of strange when you\nthink about it.
 Anyway, you’re really something.\rTraveling all by yourself, visiting all\nthese different Gyms you find and\fbeating them all...\rWell, you’re not really alone...\nYou’ve got Pokémon with you!
