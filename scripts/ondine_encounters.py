@@ -46,6 +46,25 @@ ZONES = {
                   "water": "dragon", "rock": ["ROLYCOLY", "NACLI"]},
     "abyss":     {"land": ["WOOBAT", "BINACLE", "SPHEAL", "CORSOLA", "KRABBY", "DWEBBLE", "DHELMISE"],
                   "water": "sea", "rock": ["BINACLE", "DWEBBLE"]},
+    # Outer Isles (post-game, replace Kanto)
+    "o_forest":  {"land": ["SEWADDLE", "PHANTUMP", "MORELULL", "DEERLING", "SKIDDO", "VENIPEDE", "PIKACHU"],
+                  "night": ["NOIBAT", "PHANTUMP"], "water": "fresh", "rock": ["DWEBBLE", "NACLI"]},
+    "o_rock":    {"land": ["ROGGENROLA", "NACLI", "ROLYCOLY", "ROCKRUFF", "ONIX", "LARVITAR", "TYRUNT"],
+                  "water": "fresh", "rock": ["NACLI", "ROLYCOLY"]},
+    "o_cave":    {"land": ["WOOBAT", "ROGGENROLA", "DRILBUR", "NOSEPASS", "BRONZOR", "SABLEYE", "GIBLE"],
+                  "water": "fresh", "rock": ["ROGGENROLA", "NACLI"]},
+    "o_coast":   {"land": ["WATTREL", "WIGLETT", "CRAMORANT", "SURSKIT", "LOTAD", "PYUKUMUKU", "MARILL"],
+                  "night": ["WATTREL", "NOIBAT"], "water": "sea", "rock": ["BINACLE", "DWEBBLE"]},
+    "o_psychic": {"land": ["FLITTLE", "HATENNA", "ESPURR", "INKAY", "NATU", "RALTS", "ABRA"],
+                  "night": ["INKAY", "MISDREAVUS"], "water": "fresh", "rock": ["NACLI", "ROGGENROLA"]},
+    "o_electric": {"land": ["PAWMI", "YAMPER", "SHINX", "BLITZLE", "TADBULB", "ELEKID", "TOGEDEMARU"],
+                  "night": ["SHINX", "TADBULB"], "water": "sea", "rock": ["ROLYCOLY", "NOSEPASS"]},
+    "o_grass":   {"land": ["PETILIL", "BOUNSWEET", "DEERLING", "SKIDDO", "SMOLIV", "BRAMBLIN", "MORELULL"],
+                  "night": ["MORELULL", "PHANTUMP"], "water": "fresh", "rock": ["DWEBBLE", "NACLI"]},
+    "o_swamp":   {"land": ["SHROODLE", "GLIMMET", "CROAGUNK", "SKORUPI", "VENIPEDE", "SALANDIT", "TOXEL"],
+                  "night": ["SHROODLE", "CROAGUNK"], "water": "fresh", "rock": ["GLIMMET", "NACLI"]},
+    "o_strong":  {"land": ["DEINO", "BELDUM", "GIBLE", "DREEPY", "LARVITAR", "JANGMO_O", "FRIGIBAX"],
+                  "water": "dragon", "rock": ["NACLI", "ROLYCOLY"]},
 }
 
 # Water pools, 5 slots each (surf 60/30/5/4/1, rods 40/40/15/4/1).
@@ -100,6 +119,41 @@ AREAS = {
     # Drakespire volcano
     "R45_ROUTE_45": "volcano", "T30_BLACKTHORN_CITY": "volcano", "D44R0102_DRAGONS_DEN": "dragon_cave",
     "D42R0101_DARK_CAVE_ROUTE_45_ENTRANCE": "dragon_cave",
+    "R47_ROUTE_47": "cliffs", "R48_ROUTE_48": "cliffs", "D48R0101_CLIFF_EDGE_GATE": "sea_cave",
+    "D50R0101_CLIFF_CAVE": "sea_cave",
+    # ---- Outer Isles (Kanto) ----
+    # Tidecrown (Viridian) forests
+    "T01_PALLET_TOWN": "o_forest", "R01_ROUTE_1": "o_forest", "T02_VIRIDIAN_CITY": "o_forest",
+    "R22_ROUTE_22": "o_forest", "R02_ROUTE_2_SOUTH_BELOW_VIRIDIAN_FOREST": "o_forest",
+    "R02R0101_ROUTE_2_NORTH_ABOVE_VIRIDIAN_FOREST": "o_forest", "D46R0101_VIRIDIAN_FOREST": "o_forest",
+    # Basalt Isle (Pewter) rock and caves
+    "R03_ROUTE_3": "o_rock", "R09_ROUTE_9": "o_rock", "R10_ROUTE_10": "o_rock",
+    "D02R0101_MT_MOON_1F": "o_cave", "D02R0102_MT_MOON_2F": "o_cave", "D02R0103_MT_MOON_OUTSIDE_AREA": "o_rock",
+    "D02R0104_MT_MOON_OUTSIDE_CLEFAIRY_ACTIVE": "o_rock", "D05R0101_ROCK_TUNNEL_1F": "o_cave",
+    "D05R0102_ROCK_TUNNEL_B1F": "o_cave", "D01R0101_DIGLETTS_CAVE": "o_cave",
+    # Coralline (Cerulean) coast
+    "R04_ROUTE_4": "o_coast", "R24_ROUTE_24": "o_coast", "R25_ROUTE_25": "o_coast", "T04_CERULEAN_CITY": "o_coast",
+    "W19_ROUTE_19": "o_coast", "W20_ROUTE_20": "o_coast", "W21_ROUTE_21": "o_coast", "T09_CINNABAR_ISLAND": "o_coast",
+    # Mirage Isle (Saffron) psychic routes
+    "R05_ROUTE_5": "o_psychic", "R06_ROUTE_6": "o_psychic", "R07_ROUTE_7": "o_psychic", "R08_ROUTE_8": "o_psychic",
+    # Stormcap (Vermilion)
+    "R11_ROUTE_11": "o_electric", "T06_VERMILION_CITY": "o_electric",
+    # Bloomhaven (Celadon)
+    "T07_CELADON_CITY": "o_grass", "R16R0301_ROUTE_16": "o_grass",
+    # Mire Isle (Fuchsia) swamps
+    "R12_ROUTE_12": "o_swamp", "R13_ROUTE_13": "o_swamp", "R14_ROUTE_14": "o_swamp", "R15_ROUTE_15": "o_swamp",
+    "R17_ROUTE_17": "o_swamp", "R18_ROUTE_18": "o_swamp", "T08_FUCHSIA_CITY": "o_swamp",
+    # Seafoam stays icy
+    **{f"D11R010{n}_SEAFOAM_ISLANDS_{f}": "ice_cave" for n, f in ((1, "1F"), (2, "B1F"), (3, "B2F"), (4, "B3F"), (5, "B4F"))},
+    # strongest areas: Victory Road, Cerulean Cave, Mt. Apex (Mt. Silver) and the roads to them
+    "R26_ROUTE_26": "o_strong", "R27_ROUTE_27": "o_strong", "R28_ROUTE_28": "o_strong",
+    "D45R0101_TOHJO_FALLS": "sea_cave",
+    "D43R0101_VICTORY_ROAD_1F": "o_strong", "D43R0102_VICTORY_ROAD_2F": "o_strong", "D43R0103_VICTORY_ROAD_3F": "o_strong",
+    "D03R0101_CERULEAN_CAVE_1F": "o_strong", "D03R0102_CERULEAN_CAVE_B1F": "o_strong", "D03R0103_CERULEAN_CAVE_B2F": "o_strong",
+    "T31_MT_SILVER_OUTSIDE_POKEMON_CENTER": "o_strong", "D41R0101_MT_SILVER_1F": "o_strong",
+    "D41R0102_MT_SILVER_TOP_SNOWY_AREA": "o_strong", "D41R0103_MT_SILVER_MOUNTAINSIDE": "o_strong",
+    "D41R0104_MT_SILVER_EXPERT_BELT_ROOM": "o_strong", "D41R0105_MT_SILVER_MOLTRES_ROOM": "o_strong",
+    "D41R0106_MT_SILVER_3F": "o_strong", "D41R0107_MT_SILVER_4F": "o_strong",
 }
 
 LEVEL_EVOS = re.compile(r"EVO_LEVEL\w*")
@@ -135,8 +189,23 @@ def species_list(block, field):
     return m
 
 
-def set_land(block, zone):
-    levels = [int(x) for x in re.search(r"\.levels = \{\s*([\d,\s]+?)\s*\}", block).group(1).split(",")]
+# Post-game zones get a level floor: if an area's lowest level is below it, the whole area
+# (each section separately) is shifted up to meet it. Idempotent - a second run changes nothing.
+LEVEL_FLOOR = {z: 35 for z in ZONES if z.startswith("o_")}
+LEVEL_FLOOR["o_strong"] = 45
+LEVEL_CAP = 70
+
+
+def raise_floor(levels, floor):
+    low = min((lv for lv in levels if lv), default=0)
+    shift = max(0, floor - low) if low else 0
+    return [min(LEVEL_CAP, lv + shift) if lv else 0 for lv in levels]
+
+
+def set_land(block, zone, floor=0):
+    m = re.search(r"(\.levels = \{\s*)([\d,\s]+?)(\s*\})", block)
+    levels = raise_floor([int(x) for x in m.group(2).split(",")], floor)
+    block = block[:m.start(2)] + ", ".join(map(str, levels)) + block[m.end(2):]
     for field in ("speciesMorning", "speciesDay", "speciesNight"):
         pool = list(zone["land"])
         if field == "speciesNight" and "night" in zone:
@@ -148,9 +217,12 @@ def set_land(block, zone):
     return block
 
 
-def set_slots(block, field, pool):
+def set_slots(block, field, pool, floor=0):
     m = species_list(block, field)
-    rows = re.findall(r"\{\s*(\d+),\s*(\d+),\s*SPECIES_\w+\s*\}", m.group(2))
+    rows = [(int(lo), int(hi)) for lo, hi in re.findall(r"\{\s*(\d+),\s*(\d+),\s*SPECIES_\w+\s*\}", m.group(2))]
+    los = raise_floor([lo for lo, _ in rows], floor)
+    shift = [nl - lo for nl, (lo, _) in zip(los, rows)]
+    rows = [(lo + d, min(LEVEL_CAP, hi + d) if hi else 0) for (lo, hi), d in zip(rows, shift)]
     indent = re.match(r"\s*", m.group(2)).group(0)
     out = []
     for (lo, hi), sp in zip(rows, pool):
@@ -176,16 +248,17 @@ def main():
         block = src[start:end]
         if name in AREAS:
             zone = ZONES[AREAS[name]]
+            floor = LEVEL_FLOOR.get(AREAS[name], 0)
             rate = lambda k: int(re.search(r"\.rate" + k + r" = (\d+)", block).group(1))
             if rate("Walk"):
-                block = set_land(block, zone)
+                block = set_land(block, zone, floor)
             water = WATER[zone["water"]]
             for k, field, key in (("Surf", "surfSlots", "surf"), ("OldRod", "oldRodSlots", "old"),
                                   ("GoodRod", "goodRodSlots", "good"), ("SuperRod", "superRodSlots", "super")):
                 if rate(k):
-                    block = set_slots(block, field, water[key])
+                    block = set_slots(block, field, water[key], floor)
             if rate("RockSmash"):
-                block = set_slots(block, "rockSmashSlots", zone["rock"])
+                block = set_slots(block, "rockSmashSlots", zone["rock"], floor)
             done += 1
         out.append(block)
         pos = end
